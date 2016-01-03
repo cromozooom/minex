@@ -1,6 +1,6 @@
 MINEX
 ======
-Descarca arhiva si fa upload dar filtreaza fisierele de tip **sass** si **jade** - (in general se gasesc in cartelele _**sass**_ si _**template**_ )
+Descarca arhiva si fa UPLOAD, dar filtreaza fisierele de tip **sass** & **jade** (in general se gasesc in cartelele _**sass**_ si _**template**_ dar si in radacina)
 
 ----------
 

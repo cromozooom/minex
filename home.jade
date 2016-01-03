@@ -1,0 +1,43 @@
+extends layout.jade
+block config
+	- var jquery 		= true
+	- var bootstrap 	= true
+	- var bxSlider 		= true
+	- var jquerySticky	= true
+	- var smoothScroll	= true
+	//- 
+		- var focusPoint 	= true
+		- var bw 			= false
+		- var analytics		= false
+
+block content
+	body.home
+		include template/nav
+		include template/video
+		//- block buttonSectionPrimary
+			section.buttonSection.primary
+				a.circleButton(href="#section01")
+					span.glyphicon.glyphicon-menu-down
+		block solutiiIntegrate
+			include template/solutiiIntegrate_
+
+		
+
+		include template/consultanta
+		//- block buttonSectionSecondary
+			section.buttonSection.secondary
+				a.circleButton(href="")
+					span.glyphicon.glyphicon-menu-down
+		//- include template/montaj
+		//- block buttonSectionPrimary	
+		//- section.primary.fullWidth
+			.container-fluid
+				.row.no-gutter
+					.col-xs-12
+						include template/map.html
+						//-#map
+			hr.invisible
+		//- block buttonSectionPrimary
+		//- include template/solutii_complete
+		//- block buttonSectionPrimary
+		//- include template/contact.jade

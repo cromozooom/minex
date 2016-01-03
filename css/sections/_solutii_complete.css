@@ -1,0 +1,10 @@
+#solutii_complete .bx-wrapper .bx-viewport {
+  border: 0px;
+  background: transparent;
+  border-radius: 50%;
+  width: 150px;
+}
+
+#solutii_complete .sidebar.bxslider {
+  background: transparent;
+}

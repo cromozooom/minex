@@ -1,0 +1,72 @@
+// breadckrumbs
+
+.breadcrumb
+	background-color: transparent
+	font-size: 2rem
+	padding-left: 0
+	font-family: $custom-font-family-01
+	a
+		text-decoration: none
+
+// icons
+.icons
+	margin-top: 2em
+	img
+		margin: 0 auto 1em 1em
+// sidebar icons
+
+.sidebar
+	h3
+		font-weight: 400
+		padding-left: 1em
+	.icons
+		margin-top: 2em
+		img
+			margin: 0 auto 1em auto
+
+@media (min-width: $screen-sm-min)
+	.sidebar
+		h3
+			font-weight: 400
+			padding-left: 1em
+		.icons
+			margin-top: 2em
+			img
+				margin: 0 auto 1em 1em
+
+
+@media (min-width: $screen-md-min)
+	.sidebar
+		h3
+			padding-left: 0
+		.icons
+			img
+				margin: 0 auto 1em auto
+
+// prod grid
+.prodGrid
+	list-style: none
+	padding: 0
+	h3
+		padding: 0 1em 1em 1em
+		font-weight: 400
+	li
+		border: 1px solid rgba(0,0,0,0.1)
+		border-top: 0
+		border-left: 0
+	li:nth-child(2n+2)
+		border-right: 0
+
+@media (min-width: $screen-sm-min)
+	.prodGrid
+		li:nth-child(2n+2)
+			border-right: 1px solid  rgba(0,0,0,0.1)
+		li:nth-child(3n+3)
+			border-right: 0
+
+@media (min-width: $screen-md-min)
+	.prodGrid
+		li:nth-child(2n+2), li:nth-child(3n+3)
+			border-right: 1px solid  rgba(0,0,0,0.1)
+		li:nth-child(4n+4)
+			border-right: 0

@@ -1,0 +1,2 @@
+//focuspoint
+$('.focuspoint').focusPoint();

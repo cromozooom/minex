@@ -1,0 +1,21 @@
+extends layout.jade
+
+block content
+	body.testimoniale
+		include template/nav
+		section.heroProd
+			.container-fluid
+				.row.no-gutter
+					.col-xs-12
+						.focuspoint(data-focus-x="0" data-focus-y="0" data-image-w="1920" data-image-h="580")
+							img(src="img/testimoniale_hero.jpg" alt="")
+
+		section.content
+			.container
+				.row
+					.col-xs-12.col-md-8
+						h1 Referinte
+						p 
+							| Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+		include template/gridNews.jade
+		include template/footer

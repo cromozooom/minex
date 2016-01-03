@@ -1,0 +1,62 @@
+extends layout.jade
+block config
+	- var jquery 		= false
+	- var bootstrap 	= false
+	- var bxSlider 		= false
+	- var focusPoint 	= false
+	- var bw 			= false
+
+block content
+	body.index
+		.container
+			.row
+				.col-xs-12
+					h3 Pagini realizate
+					hr
+					ol
+						li
+							a(href="home.html")
+								| Home page
+								br
+							small (1homepage, 2homepagemeniu desfasurat, 3selectie meniu produs, 4solutii integrate, 5consultanta si proiectare, 6montaj si service, 7referinte, 8despre noi, 9contact)
+							hr
+						li
+							a(href="categ.html")
+								| Listare produse
+								br
+							small (listare produse)
+							hr
+						li
+							a(href="prod.html")
+								| Pagina produs
+								br
+							small (pagina produs)
+							hr
+						li
+							a(href="noutati.html")
+								| Noutati
+								br
+							small (noutati)
+							hr
+						li
+							a(href="testimoniale.html")
+								| Pagina de testimoniale
+								br
+							small (pagina testimoniale)
+							hr
+						li
+							a(href="referinte.html")
+								| Pagina de referinte
+								br
+							small (pagina referinte) - daca stergi paginarea e si pagina de baza a referintelor
+							hr
+						li
+							a(href="minex.rar")
+								strong DOWNLOAD
+								i  - minex.rar
+								br
+							small (all the files)
+							hr
+
+
+					

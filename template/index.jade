@@ -1,0 +1,32 @@
+body.home
+	include template/nav
+	include template/video
+
+	block buttonSectionPrimary
+		section.buttonSection.primary
+			a.circleButton(href="")
+				span.glyphicon.glyphicon-menu-down
+	
+	include template/solutiiIntegrate
+	block buttonSectionPrimary
+	include template/consultanta
+	block buttonSectionSecondary
+		section.buttonSection.secondary
+			a.circleButton(href="")
+				span.glyphicon.glyphicon-menu-down
+	include template/montaj
+	block buttonSectionPrimary	
+	section.primary.fullWidth
+		.container-fluid
+			.row.no-gutter
+				.col-xs-12
+					include template/map.html
+					#map
+	.clearfix
+	block buttonSectionPrimary
+	include template/solutii_complete
+	block buttonSectionPrimary
+	include template/contact.jade
+
+
+	include footer

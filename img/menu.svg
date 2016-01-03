@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="#menuSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 110.3 19" style="enable-background:new 0 0 110.3 19;" xml:space="preserve">
+	<style type="text/css">
+		.st0{fill:#FFFFFF;}
+		.st1{font-family: "Josefin Sans", Helvetica, Arial, sans-serif;}
+		.st2{font-size:17px;}
+	</style>
+	<text id="XMLID_1_" transform="matrix(1 0 0 1 32.0755 16.0379)" class="st0 st1 st2">MENIU</text>
+	<rect id="XMLID_2_" y="0" class="st0" width="5" height="5"/>
+	<rect id="XMLID_3_" y="7" class="st0" width="5" height="5"/>
+	<rect id="XMLID_4_" y="14" class="st0" width="5" height="5"/>
+	<rect id="XMLID_7_" x="7" y="0" class="st0" width="5" height="5"/>
+	<rect id="XMLID_6_" x="7" y="7" class="st0" width="5" height="5"/>
+	<rect id="XMLID_5_" x="7" y="14" class="st0" width="5" height="5"/>
+	<rect id="XMLID_10_" x="14" y="0" class="st0" width="5" height="5"/>
+	<rect id="XMLID_11_" x="24" y="0" class="st0" width="1" height="19"/>
+	<rect id="XMLID_9_" x="14" y="7" class="st0" width="5" height="5"/>
+	<rect id="XMLID_8_" x="14" y="14" class="st0" width="5" height="5"/>
+</svg>

@@ -1,0 +1,229 @@
+.container-fluid--fullwidth
+	margin: 0 auto
+	width: 100%
+	padding: 0
+
+
+
+// primary & secondary section
+.section--secondary
+	color:  $brand-primary
+	.container-fluid
+		padding-top: 2em
+		background-color: white
+	.row--hero
+		.content
+			padding: 3em
+		h1
+			color: inherit
+			text-transform: uppercase
+			font-weight: 800
+		blockquote
+			border: 1px solid rgba(0, 0, 0, 0.2)
+			color: inherit
+			margin-top: 1em
+			span.circleQuote
+				color:  white
+				background-color: $brand-primary
+	h2
+		color: inherit
+		//font-weight: 800
+	
+
+.section--primary
+	color: white
+	.container-fluid
+		padding-top: 2em
+		background-color: $brand-primary
+	.row--hero
+		.content
+			padding: 0 2em
+		h1
+			color: inherit
+			text-transform: uppercase
+			font-weight: 800
+		blockquote
+			border: 1px solid rgba(0, 0, 0, 0.2)
+			color: inherit
+			margin-top: 1em
+			span.circleQuote
+				color: $brand-primary
+				background-color: white
+
+
+	h2
+		color: inherit
+		//font-weight: 800
+
+.lead--small
+	font-size: 1.2em
+
+.row--hero
+	blockquote
+		position: relative
+		span.circleQuote
+			display: block
+			font-size: 5rem
+			width: .8em
+			height: .8em
+			line-height: 1.3em
+			top: -0.4em
+			left: -0.4em
+			position: absolute
+			text-align: center
+			border-radius: 50%
+
+
+.row--no-gutter
+	margin-right: 0
+	margin-left: 0
+.row--no-gutter > [class^="col-"],
+.row--no-gutter > [class*=" col-"]
+	padding-right: 0
+	padding-left: 0
+
+.focuspoint--round-left
+	border-radius: 0 0 100px 0
+	margin-right: 2em
+
+.focuspoint--round-right
+	border-radius: 0 0 0 100px
+	margin-left: 2em
+
+.col-same-height
+	height: auto
+	//border: 1px solid red
+
+.content
+	width: auto
+	position: relative
+	top: auto
+	left: auto
+	transform: translate(0, 0)
+
+.focuspoint
+	height: 20vh
+
+
+@media (min-width: $screen-sm-min)
+	.col-same-height
+		height: auto
+		.content
+			width: auto
+			position: relative
+			top: auto
+			left: auto
+			transform: translate(0, 0)
+	.focuspoint
+		height: 20vh
+
+
+
+@media (min-width: $screen-md-min)
+	.col-same-height
+		height: auto
+	.col-same-height, .focuspoint
+		height: 85vh
+	.focuspoint--round-left
+		border-radius: 0 100px 100px 0
+		margin-right: 0
+
+	.focuspoint--round-right
+		border-radius: 100px 0 0 100px
+		margin-left: 0
+
+@media (min-width: $screen-lg-min)
+	// same height
+	.col-same-height, .focuspoint
+		height: 85vh
+
+	.col-same-height
+		position: relative
+		.content
+			width: 90%
+			//padding: 3em
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%, -50%)
+	
+	.section--primary .row--hero .content
+    	padding: 3em
+
+
+.row--hero
+	blockquote
+		border: 2px solid white
+		border-left: 2px solid white
+		color: white
+		border-radius: 10px
+		background-color: inherit
+
+.row--content
+	padding: 2em 0
+
+	
+
+
+.primary
+	color: white
+	.col1, .col2
+		background-color: $brand-primary
+
+.secondary
+	background-color: white
+	color: $brand-primary
+.no-gutter
+	padding-left: 0
+	padding-right: 0
+
+
+//.sticky_parent
+//	width: 100%
+
+.section
+	+make-row();
+	
+
+.col1, .col2
+	padding-left: 0 !important
+	padding-right: 0 !important
+	.content--padding
+		padding-top: 2em
+
+.center-col
+	+make-xs-column(12);
+	+make-md-column(10);
+	+make-xs-column-push(1);	
+.col1
+	+make-xs-column(12);
+	+make-sm-column(12);
+	+make-md-column(8);
+	+make-lg-column(7);
+
+.image-left, .image-right
+	border: 1px solid $brand-primary
+	border-top: 0
+
+.image-left
+	border-left: 0
+	margin: 1em 0
+	margin-right: 2em
+	border-radius: 0 100px 100px 0
+	overflow: hidden
+
+.image-right
+	border-right: 0
+	margin: 1em 0
+	margin-left: 2em
+	border-radius: 100px 0 0 100px
+	overflow: hidden
+
+
+.col2	
+	+make-xs-column(12);
+	+make-sm-column(12);
+	+make-md-column(4);
+	+make-lg-column(5);
+	.content
+		margin: 1em 0

@@ -1,0 +1,111 @@
+extends layout.jade
+
+block config
+	- var jquery 		= true
+	- var bootstrap 	= true
+	- var focusPoint 	= true
+	- var analytics		= true
+	- var bw 			= true
+	- var bxSlider 		= true
+	//- 
+		- var jquerySticky	= true
+		- var smoothScroll	= true
+
+block content
+	body.prod
+		include template/nav
+		section
+			.container-fluid.container-fluid--fullwidth
+				.row.row--no-gutter.row--hero
+					.focuspoint(data-focus-x="0" data-focus-y="0" data-image-w="1920" data-image-h="580")
+						img(src="img/category_hero.jpg" alt="")
+			.container
+				.row.no-gutter
+					.col-xs-12.col-md-6.description
+						h1 Aspirator BDC-1216
+						p
+							| Aspiratorul compact BDC-1216, poate fi folosit impreuna cu echipamentele manuale si cu masinile pentru sablat, slefuit si scarificat, de dimensiuni mici. 
+							br
+							| Este echipat cu un recipient pentru praf cu capacitate de 40L, pentru ca activitatea sa se poata desfasura fara intrerupere, pe o perioada de timp indelungata.
+					.col-xs-12.col-md-4.col-md-offset-1
+						.imgGallery
+							ul.bxsliderProd
+								li
+									img.img-responsive(src="img/prodG_01.jpg")
+								li
+									img.img-responsive(src="img/prodG_02.jpg")
+								li
+									img.img-responsive(src="img/prodG_03.jpg")
+		section.details
+			.container
+				.row
+					.tab
+						//- Nav tabs
+						ul.nav.nav-tabs(role="tablist")
+							li(role="presentation")
+								a(href="#specificatii" aria-controls="specificatii" role="tab" data-toggle="tab") Specificatii
+							li.active(role="presentation")
+								a(href="#avantaje" aria-controls="avantaje" role="tab" data-toggle="tab") Avantaje
+							li(role="presentation")
+								a(href="#accesorii" aria-controls="accesorii" role="tab" data-toggle="tab") Accesorii
+							li(role="presentation")
+								a(href="#referinte" aria-controls="referinte" role="tab" data-toggle="tab") Referinte
+
+						//- Tab panes
+						.tab-content
+							#specificatii.tab-pane(role="tabpanel")
+								h4 Specificatii
+							#avantaje.tab-pane.active(role="tabpanel")
+								h4 Avantajele utilizarii acestor produse
+								ul
+									li: p Aspirator industrial usor, fabricat din poliester dur;
+									li: p Usor de transportat, rezistent si usor de curatat;
+									li: p Echipat cu un filtru stea clasa M, suprafata de filtrare de 8600 cm2, ideal pentru filtrarea prafului fin;
+									li: p Optional: filtru / kit HEPA (filtrare particule periculoase sanatatii);
+									li: p Poate fi folosit atat in interior cat si in exterior;
+									li: p Mentine curatenia la locul de munca;
+									li: p Echipament pentru utilizare in conditii grele de lucru, proiectat sa functioneze continuu.
+							#accesorii.tab-pane(role="tabpanel")
+								h4 Accesorii
+							#referinte.tab-pane(role="tabpanel")
+								h4 Referinte
+		sections.similar
+			.container
+				.row
+					.col-xs-12
+						h4 Produse similare
+					.col-xs-12
+						ul.bx-simlar
+							li: a(href="#")
+								img(src="img/prod_01.jpg")
+							li: a(href="#")
+								img(src="img/prod_02.jpg")
+							li: a(href="#")
+								img(src="img/prod_03.jpg")
+							li: a(href="#")
+								img(src="img/prod_04.jpg")
+							li: a(href="#")
+								img(src="img/prod_05.jpg")
+							li: a(href="#")
+								img(src="img/prod_06.jpg")
+							li: a(href="#")
+								img(src="img/prod_01.jpg")
+							li: a(href="#")
+								img(src="img/prod_02.jpg")
+				.row
+					.col-xs-12
+						h4 Alte aplicatii pentru industrie
+					.col-xs-12
+						.row.icons
+							.col-xs-6.col-sm-3.col-md-2.col-lg-1
+								a(href="")
+									img.img-responsive(img src="img/icon01.jpg" alt="")
+							.col-xs-6.col-sm-3.col-md-2.col-lg-1
+								a(href="")
+									img.img-responsive(img src="img/icon02.jpg" alt="")
+							.col-xs-6.col-sm-3.col-md-2.col-lg-1
+								a(href="")
+									img.img-responsive(img src="img/icon03.jpg" alt="")
+							.col-xs-6.col-sm-3.col-md-2.col-lg-1
+								a(href="")
+									img.img-responsive(img src="img/icon04.jpg" alt="")		

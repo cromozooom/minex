@@ -2,6 +2,12 @@
 Thumbs.db
 ehthumbs.db
 
+# sublime text and prepro
+minex.sublime-project
+minex.sublime-workspace
+prepros.cfg
+
+
 # Folder config file
 Desktop.ini
 

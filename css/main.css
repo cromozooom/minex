@@ -8446,6 +8446,23 @@ h1, h2, h3, h4 {
   color: #333;
 }
 
+.contact {
+  background-image: url("../img/contact.jpg");
+  background-size: cover;
+}
+
+.contact h2 {
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact h3 {
+  font-weight: 400;
+  font-size: 1.2em;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
 .breadcrumb {
   background-color: transparent;
   font-size: 2rem;

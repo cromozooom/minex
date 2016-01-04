@@ -1,13 +1,108 @@
 extends layout.jade
 block config
-	- var jquery 		= false
-	- var bootstrap 	= false
+	- var jquery 		= true
+	- var bootstrap 	= true
 	- var bxSlider 		= false
 	- var focusPoint 	= false
 	- var bw 			= false
 
 block content
 	body.index
+		nav.navbar.navbar-default
+			.container
+				.dropdown
+					a#dLabel(role='button', data-toggle='dropdown', data-target='#', href='/page.html')
+						| Menu 
+						span.caret
+					ul.dropdown-menu.multi-level(role='menu', aria-labelledby='dropdownMenu')
+						li
+							a(href='#') IQ industrial
+						li
+							a(href='#') Referinte
+						li.divider
+						li.dropdown-submenu
+							a(tabindex='-1', href='#') Aplicatii
+							ul.dropdown-menu
+								li
+									a(tabindex='-1', href='#') Aplicare chituri masticuri si adezivi
+								li
+									a(tabindex='-1', href='#') Aplicare fibra de sticla
+								li
+									a(tabindex='-1', href='#') Aplicare poliurea
+								li
+									a(tabindex='-1', href='#') Aspiratie
+								li
+									a(tabindex='-1', href='#') Controlul calitatii
+								li
+									a(tabindex='-1', href='#') Dezumidificare
+								li
+									a(tabindex='-1', href='#') Ecruisare
+								li
+									a(tabindex='-1', href='#') Incalzire
+								li
+									a(tabindex='-1', href='#') Manipulare profile
+								li
+									a(tabindex='-1', href='#') Metalizare
+								li
+									a(tabindex='-1', href='#') Procesare table si profile
+								li
+									a(tabindex='-1', href='#') Sablare
+								li
+									a(tabindex='-1', href='#') Sudura profile
+								li
+									a(tabindex='-1', href='#') Taiere cu plasma si oxi-gaz
+								li
+									a(tabindex='-1', href='#') Transvazare lichide
+								li
+									a(tabindex='-1', href='#') Ventilatie - desprafuire
+								li
+									a(tabindex='-1', href='#') Vopsire
+								li.dropdown-submenu
+									a(href='#') Even More..
+									ul.dropdown-menu
+										li
+											a(href='#') 3rd level
+										li
+											a(href='#') 3rd level
+						li
+							a(href='#') Second level
+						li
+							a(href='#') Second level
+
+		nav.navbar.navbar-default
+			.container-fluid
+				//- Brand and toggle get grouped for better mobile display -->
+				.navbar-header
+					button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					//-a.navbar-brand(href="#") Brand
+			//- Collect the nav links, forms, and other content for toggling
+			.collapse.navbar-collapse#bs-example-navbar-collapse-1
+				ul.nav.navbar-nav
+					li.active
+						a( href="#")
+							| Link 
+							span.sr-only (current)
+					li
+						a(href="#") Link
+					li.dropdown
+						a(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false")
+							| Aplicatii
+							span.caret
+						ul.dropdown-menu
+							li.dropdown
+								a(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false")
+									| L01 Aplicare chituri, masticuri si adezivi 
+									span.caret
+								ul.dropdown-menu
+									li.dropdown
+										a(href="#") L02 Aplicare chituri, masticuri si adezivi
+
+							li
+								a(href="#") Another action
 		.container
 			.row
 				.col-xs-12

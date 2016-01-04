@@ -1,14 +1,23 @@
 extends layout.jade
+block config
+	- var jquery 		= true
+	- var bootstrap 	= true
+	- var focusPoint 	= true
+	- var analytics		= true
+	- var bw 			= true
+	//- 
+		- var jquerySticky	= true
+		- var smoothScroll	= true
+		- var bxSlider 		= true
 
 block content
 	body.testimoniale
 		include template/nav
-		section.heroProd
-			.container-fluid
-				.row.no-gutter
-					.col-xs-12
-						.focuspoint(data-focus-x="0" data-focus-y="0" data-image-w="1920" data-image-h="580")
-							img(src="img/testimoniale_hero.jpg" alt="")
+		section
+			.container-fluid.container-fluid--fullwidth
+				.row.row--no-gutter.row--hero
+					.focuspoint(data-focus-x="0" data-focus-y="0" data-image-w="1920" data-image-h="580")
+						img(src="img/testimoniale_hero.jpg" alt="")
 
 		section.content
 			.container

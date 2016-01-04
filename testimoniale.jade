@@ -1,13 +1,21 @@
 extends layout.jade
-
+block config
+	- var jquery 		= true
+	- var bootstrap 	= true
+	- var focusPoint 	= true
+	- var analytics		= true
+	- var bw 			= true
+	//- 
+		- var jquerySticky	= true
+		- var smoothScroll	= true
+		- var bxSlider 		= true
 block content
 	body.testimoniale
 		include template/nav
-		section.heroProd
-			.container-fluid
-				.row.no-gutter
-					.col-xs-12
-						.focuspoint(data-focus-x="0" data-focus-y="0" data-image-w="1920" data-image-h="580")
+		section
+			.container-fluid.container-fluid--fullwidth
+				.row.row--no-gutter.row--hero
+					.focuspoint(data-focus-x="0" data-focus-y="0" data-image-w="1920" data-image-h="580")
 							img(src="img/testimoniale_hero.jpg" alt="")
 
 		section.content
@@ -37,6 +45,7 @@ block content
 		
 		section.quote.secondary
 			.container
+				br
 				blockquote.borderNone
 					p
 						| STX RO Offshore Tulcea face parte din grupul international STX Europe, grup ce i[i propune s` fie lider \n domeniul construc]iei navelor de croazier` [i navelor tehnice. STX Europe vizeaz` s` devin` un juc`tor international de top \n domeniile sale de referin`: transport naval, construc]ie de nave [i echipamente conexe.
@@ -47,4 +56,3 @@ block content
 						| Tudorel Topa - Director General STX RO Offshore Tulcea 
 						cite(title="Source Title") in De la batrini cetire
 					span.circleQuote "
-		include template/footer

@@ -7,3 +7,14 @@ $('.my-sticky-element')
 .on('sticky_kit:unbottom', function(e) {
     $(this).parent().css('position', 'relative');
 })
+
+$(document).ready(function() {
+	$("#my-menu").mmenu({
+		// options
+	}, {
+		// configuration
+		offCanvas: {
+			pageNodetype: "section"
+		}
+	});
+});

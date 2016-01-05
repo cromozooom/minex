@@ -14,22 +14,34 @@ block config
 
 block content
 	body.home
-		//-include template/nav
-		include template/video
-		include template/solutiiIntegrate
-		include template/consultanta
-		include template/montaj
-		include template/consultanta
-		include template/solutii_complete	
-		include template/referinte
-		
-		//-block maps
-			section#referinte
-				.container-fluid.container-fluid--fullwidth.contact
-					.row.row--no-gutter
-						.col-xs-12
-							include template/map.html
-		include template/contact
+		nav#my-menu
+			ul
+				li: a(href="/") Home
+				li
+					a(href="/about/") About us
+					ul
+						li: a(href="/about/history/") History
+						li: a(href="/about/team/") The team
+						li: a(href="/about/address/") Our address
+
+				li: a(href="/contact/") Contact
+		div
+			//-include template/nav
+			include template/video
+			include template/solutiiIntegrate
+			include template/consultanta
+			include template/montaj
+			include template/consultanta
+			include template/solutii_complete	
+			include template/referinte
+			
+			//-block maps
+				section#referinte
+					.container-fluid.container-fluid--fullwidth.contact
+						.row.row--no-gutter
+							.col-xs-12
+								include template/map.html
+			include template/contact
 
 
 

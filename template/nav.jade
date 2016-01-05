@@ -1,4 +1,19 @@
-.container-fluid
+nav#menu
+	ul
+		li: a(href="#") Home
+		li: a(href="#about") About us
+			ul
+				li: a(href="#about/history") History
+				li: a(href="#about/team") The team
+					ul
+						li: a(href="#about/team/management") Management
+						li: a(href="#about/team/sales") Sales
+						li: a(href="#about/team/development") Development
+				li: a(href="#about/address") Our address
+		li: a(href="#contact") Contact
+
+
+//- .container-fluid
 	.nav.svgMenu
 		a(href="")
 			//--svg(style="display: none;")

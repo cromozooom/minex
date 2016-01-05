@@ -23,17 +23,20 @@ block content
 						li: a(href="/about/history/") History
 						li: a(href="/about/team/") The team
 						li: a(href="/about/address/") Our address
-
 				li: a(href="/contact/") Contact
-		div
+		#page
+			.header
+				a#menu open
+
 			//-include template/nav
-			include template/video
-			include template/solutiiIntegrate
-			include template/consultanta
-			include template/montaj
-			include template/consultanta
-			include template/solutii_complete	
-			include template/referinte
+			
+			//-! include template/video
+			//-! include template/solutiiIntegrate
+			//-! include template/consultanta
+			//-! include template/montaj
+			//-! include template/consultanta
+			//-! include template/solutii_complete	
+			//-! include template/referinte
 			
 			//-block maps
 				section#referinte

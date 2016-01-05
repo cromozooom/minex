@@ -2,15 +2,14 @@ extends layout.jade
 block config
 	- var jquery 		= true
 	- var mmenu 		= true
-
+	- var bootstrap 	= true
+	- var bxSlider 		= true
+	- var jquerySticky	= true
+	- var smoothScroll	= true
+	- var focusPoint 	= true
+	- var bw 			= true
+	- var analytics		= true
 	//- 
-		- var bootstrap 	= true
-		- var bxSlider 		= true
-		- var jquerySticky	= true
-		- var smoothScroll	= true
-		- var focusPoint 	= true
-		- var bw 			= true
-		- var analytics		= true
 
 block content
 	body.home
@@ -23,13 +22,13 @@ block content
 
 				//-include template/nav
 				
-				//-! include template/video
-				//-! include template/solutiiIntegrate
-				//-! include template/consultanta
-				//-! include template/montaj
-				//-! include template/consultanta
-				//-! include template/solutii_complete	
-				//-! include template/referinte
+				include template/video
+				include template/solutiiIntegrate
+				include template/consultanta
+				include template/montaj
+				include template/consultanta
+				include template/solutii_complete	
+				include template/referinte
 				
 				include template/contact
 			

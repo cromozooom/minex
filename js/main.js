@@ -13,9 +13,6 @@ $(document).ready(function() {
 		// options
 	}, {
 		// configuration
-		classNames: {
-			vertical: "expand"
-		},
 		offCanvas: {
 			pageNodetype: "section"
 		}

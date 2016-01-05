@@ -6,19 +6,24 @@ block config
 	- var jquerySticky	= true
 	- var smoothScroll	= true
 	- var focusPoint 	= true
+	- var bw 			= true
+	- var mmenu 		= true
+
 	//- 
 		- var analytics		= true
-		- var bw 			= true
 
 block content
 	body.home
-		include template/nav
+		//-include template/nav
 		include template/video
 		include template/solutiiIntegrate
 		include template/consultanta
 		include template/montaj
+		include template/consultanta
 		include template/solutii_complete	
-		block maps
+		include template/referinte
+		
+		//-block maps
 			section#referinte
 				.container-fluid.container-fluid--fullwidth.contact
 					.row.row--no-gutter

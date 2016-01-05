@@ -416,9 +416,9 @@ a:hover {
 }
 
 .mm-menu {
-  background: #f3f3f3;
+  background: #ff7200;
   border-color: rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.7);
+  color: white;
 }
 
 .mm-menu
@@ -426,7 +426,7 @@ a:hover {
 .mm-menu
 .mm-navbar
 a {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .mm-menu
@@ -435,7 +435,7 @@ a {
 .mm-menu
 .mm-navbar
 .mm-btn:after {
-  border-color: rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 .mm-menu
@@ -450,7 +450,7 @@ a {
 .mm-listview
 > li
 .mm-arrow:after {
-  border-color: rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 .mm-menu
@@ -639,7 +639,7 @@ em.mm-counter
 }
 
 .mm-menu em.mm-counter {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 /*
@@ -1034,12 +1034,12 @@ li.mm-nosubresults > a.mm-next
 .mm-menu
 .mm-search input {
   background: rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.7);
+  color: white;
 }
 
 .mm-menu
 .mm-noresultsmsg {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 /*
@@ -1086,7 +1086,7 @@ a {
 }
 
 .mm-menu .mm-indexer a {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 /*
@@ -1233,7 +1233,7 @@ label.mm-toggle {
 
 .mm-menu
 label.mm-toggle:before {
-  background: #f3f3f3;
+  background: #ff7200;
 }
 
 .mm-menu
@@ -1242,7 +1242,7 @@ input.mm-toggle:checked ~ label.mm-toggle {
 }
 
 .mm-menu label.mm-check:before {
-  border-color: rgba(0, 0, 0, 0.7);
+  border-color: white;
 }
 
 /*

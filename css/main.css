@@ -10420,6 +10420,48 @@ input.mm-toggle:checked ~ label.mm-toggle {
   margin: 0;
 }
 
+.header, .pageContent, .footer {
+  text-align: center;
+}
+
+.header, .footer {
+  background: #777;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 40px;
+  width: 100%;
+  height: 40px;
+  padding: 0 50px;
+}
+
+.header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.footer.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.header a {
+  background: center center no-repeat transparent;
+  background-image: url("../img/bx_loader.gif");
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.pageContent {
+  padding: 0;
+}
+
 .heroVideo {
   position: relative;
   width: 100%;
@@ -11117,6 +11159,10 @@ input.mm-toggle:checked ~ label.mm-toggle {
   transform: translate(-50%, 0%);
   background: rgba(0, 0, 0, 0.6);
   z-index: 1;
+}
+
+nav:not(.mm-menu) {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

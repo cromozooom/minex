@@ -9,12 +9,7 @@ block footer
 					.col-xs-8
 						p.text-right &copy; Copyright 1995 - 2012. Minex, Romania. Toate drepturile rezervate.
 
-	block script
-		if jquery
-			//- script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
-			//- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-			script(src="js/jquery-1.11.3.min.js")
-		
+	block script		
 		if bootstrap
 			script(src="js/javascripts/bootstrap.min.js")
 		
@@ -37,13 +32,6 @@ block footer
 		
 		if jquerySticky		
 			script(src="js/jquerySticky/jquerySticky.js")
-
-		if mmenu
-			//-link(href="path/to/jquery.mmenu.css" type="text/css" rel="stylesheet")
-			//-link(href="path/to/jquery.mmenu.themes.css" type="text/css" rel="stylesheet")
-			script(src="js/mmenu/jquery.mmenu.min.all.js" type="text/javascript")
-		
-		script(src="js/main.js")
 
 
 		//- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

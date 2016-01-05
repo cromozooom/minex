@@ -1,21 +1,30 @@
-@import "jquery.mmenu.scss";
-
-@import "addons/jquery.mmenu.autoheight.scss";
-@import "addons/jquery.mmenu.counters.scss";
-@import "addons/jquery.mmenu.dividers.scss";
-@import "addons/jquery.mmenu.dragopen.scss";
-@import "addons/jquery.mmenu.iconpanels.scss";
-@import "addons/jquery.mmenu.navbars.scss";
-@import "addons/jquery.mmenu.searchfield.scss";
-@import "addons/jquery.mmenu.sectionindexer.scss";
-@import "addons/jquery.mmenu.toggles.scss";
-
-@import "extensions/jquery.mmenu.borderstyle.scss";
-@import "extensions/jquery.mmenu.effects.scss";
-@import "extensions/jquery.mmenu.fullscreen.scss";
-@import "extensions/jquery.mmenu.multiline.scss";
-@import "extensions/jquery.mmenu.pagedim.scss";
-@import "extensions/jquery.mmenu.pageshadow.scss";
-@import "extensions/jquery.mmenu.positioning.scss";
-@import "extensions/jquery.mmenu.themes.scss";
-@import "extensions/jquery.mmenu.tileview.scss";
+.header, .pageContent, .footer
+	text-align: center
+.header, .footer
+	background: #777
+	font-size: 16px
+	font-weight: bold
+	color: #fff
+	line-height: 40px
+	width: 100%
+	height: 40px
+	padding: 0 50px
+.header.fixed
+	position: fixed
+	top: 0
+	left: 0
+.footer.fixed
+	position: fixed
+	bottom: 0
+	left: 0
+.header a
+	background: center center no-repeat transparent
+	background-image: url("../img/bx_loader.gif")
+	display: block
+	width: 40px
+	height: 40px
+	position: absolute
+	top: 0
+	left: 10px
+.pageContent
+	padding: 0

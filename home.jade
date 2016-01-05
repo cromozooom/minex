@@ -1,50 +1,52 @@
 extends layout.jade
 block config
 	- var jquery 		= true
-	- var bootstrap 	= true
-	- var bxSlider 		= true
-	- var jquerySticky	= true
-	- var smoothScroll	= true
-	- var focusPoint 	= true
-	- var bw 			= true
 	- var mmenu 		= true
 
 	//- 
+		- var bootstrap 	= true
+		- var bxSlider 		= true
+		- var jquerySticky	= true
+		- var smoothScroll	= true
+		- var focusPoint 	= true
+		- var bw 			= true
 		- var analytics		= true
 
 block content
 	body.home
-		nav#my-menu
-			ul
-				li: a(href="/") Home
-				li
-					a(href="/about/") About us
-					ul
-						li: a(href="/about/history/") History
-						li: a(href="/about/team/") The team
-						li: a(href="/about/address/") Our address
-				li: a(href="/contact/") Contact
 		#page
 			.header
-				a(href="#menu")
+				a(href="#menu") menu
+				| Demo
 
-			//-include template/nav
+			.pageContent
+
+				//-include template/nav
+				
+				//-! include template/video
+				//-! include template/solutiiIntegrate
+				//-! include template/consultanta
+				//-! include template/montaj
+				//-! include template/consultanta
+				//-! include template/solutii_complete	
+				//-! include template/referinte
+				
+				include template/contact
 			
-			//-! include template/video
-			//-! include template/solutiiIntegrate
-			//-! include template/consultanta
-			//-! include template/montaj
-			//-! include template/consultanta
-			//-! include template/solutii_complete	
-			//-! include template/referinte
-			
-			//-block maps
-				section#referinte
-					.container-fluid.container-fluid--fullwidth.contact
-						.row.row--no-gutter
-							.col-xs-12
-								include template/map.html
-			include template/contact
+			nav#menu
+				ul
+					li: a(href="#") Home
+					li: a(href="#about") About us
+						ul
+							li: a(href="#about/history") History
+							li: a(href="#about/team") The team
+								ul
+									li: a(href="#about/team/management") Management
+									li: a(href="#about/team/sales") Sales
+									li: a(href="#about/team/development") Development
+								
+							li: a(href="#about/address") Our address
+					li: a(href="#contact") Contact
 
 
 

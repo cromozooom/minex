@@ -10300,8 +10300,7 @@ input.mm-toggle:checked ~ label.mm-toggle {
   text-align: center;
   line-height: 2em;
   display: block;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #ff7200;
   border-radius: 50%;
   margin: 0 auto;
 }

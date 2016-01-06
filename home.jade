@@ -15,10 +15,11 @@ block content
 	body.home
 		#page
 			.header
-				a.pull-left(href="#")
+				a.logoBrand.pull-left(href="#")
 					img(src="img/logo.png")
-				a.menu.pull-right(href="#menu") MENU
-			.pageContent				
+				a.menu.pull-right(href="#menu")
+					include img/menu.svg
+			.pageContent
 				include template/video
 				include template/solutiiIntegrate
 				include template/consultanta

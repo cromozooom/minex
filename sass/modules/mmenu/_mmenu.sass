@@ -1,5 +1,5 @@
 .header
-	background: rgba( 0, 0, 0, 0.5)
+	//background: rgba( 0, 0, 0, 0.5)
 	font-size: 16px
 	font-weight: bold
 	color: #fff
@@ -9,21 +9,27 @@
 	padding: 0 50px
 	position: absolute
 	z-index: 8
+	a.logoBrand
+		padding: 10px
 .header.fixed
 	position: absolute
 	top: 0
 	left: 0
 
 .header a.menu
-	background: center center no-repeat transparent
+	//background: center center no-repeat transparent
 	// background-image: url("../img/bx_loader.gif")
 	display: block
-	width: 80px
+	//width: 120px
 	height: 80px
 	line-height: 80px
 	position: absolute
-	top: 0
-	right: 20px
-
+	top: 10px
+	right: 0
+	svg
+		width: 160px
+		height: 60px
+		background: $brand-primary
+		padding: 20px
 .pageContent
 	padding: 0

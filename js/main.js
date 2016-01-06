@@ -18,7 +18,7 @@ $(function() {
 		searchfield	: true,
 		counters	: true,
 		navbar 		: {
-			title		: 'Advanced menu'
+			title		: 'inchide meniul'
 		},
 		navbars		: [
 			{
@@ -30,11 +30,6 @@ $(function() {
 					'prev',
 					'title',
 					'close'
-				]
-			}, {
-				position	: 'bottom',
-				content		: [
-					'<a href="http://mmenu.frebsite.nl/wordpress-plugin.html" target="_blank">WordPress plugin</a>'
 				]
 			}
 		]

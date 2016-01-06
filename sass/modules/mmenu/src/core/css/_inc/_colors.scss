@@ -15,7 +15,8 @@
 			> *,
 			a
 			{
-				color: $dimmedColor;
+				// color: $dimmedColor;
+				color: white;
 			}
 
 			.mm-btn
@@ -89,7 +90,8 @@
 ) {
 	.mm-menu#{$cls} em.mm-counter
 	{
-		color: $dimmedColor;
+		//color: $dimmedColor;
+		color: white;
 	}
 }
 
@@ -133,8 +135,10 @@
 	{
 		.mm-search input
 		{
-			background: $inputBg;
-			color: $color;
+			// background: $inputBg;
+			//color: $color;
+			background: white;
+			color: black;
 		}
 		.mm-noresultsmsg
 		{

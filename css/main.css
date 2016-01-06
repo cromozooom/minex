@@ -8349,7 +8349,7 @@ a:hover {
 .mm-menu
 .mm-navbar
 a {
-  color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 
 .mm-menu
@@ -8562,7 +8562,7 @@ em.mm-counter
 }
 
 .mm-menu em.mm-counter {
-  color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 
 /*
@@ -8956,8 +8956,8 @@ li.mm-nosubresults > a.mm-next
 
 .mm-menu
 .mm-search input {
-  background: rgba(0, 0, 0, 0.05);
-  color: white;
+  background: white;
+  color: black;
 }
 
 .mm-menu
@@ -9685,7 +9685,7 @@ html.mm-opening .mm-menu.mm-next {
 .mm-menu.mm-theme-dark
 .mm-navbar
 a {
-  color: rgba(255, 255, 255, 0.4);
+  color: white;
 }
 
 .mm-menu.mm-theme-dark
@@ -9752,7 +9752,7 @@ a:not(.mm-next) {
 }
 
 .mm-menu.mm-theme-dark em.mm-counter {
-  color: rgba(255, 255, 255, 0.4);
+  color: white;
 }
 
 .mm-menu.mm-theme-dark
@@ -9766,8 +9766,8 @@ a:not(.mm-next) {
 
 .mm-menu.mm-theme-dark
 .mm-search input {
-  background: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.8);
+  background: white;
+  color: black;
 }
 
 .mm-menu.mm-theme-dark
@@ -9805,7 +9805,7 @@ input.mm-toggle:checked ~ label.mm-toggle {
 .mm-menu.mm-theme-white
 .mm-navbar
 a {
-  color: rgba(0, 0, 0, 0.3);
+  color: white;
 }
 
 .mm-menu.mm-theme-white
@@ -9872,7 +9872,7 @@ a:not(.mm-next) {
 }
 
 .mm-menu.mm-theme-white em.mm-counter {
-  color: rgba(0, 0, 0, 0.3);
+  color: white;
 }
 
 .mm-menu.mm-theme-white
@@ -9886,8 +9886,8 @@ a:not(.mm-next) {
 
 .mm-menu.mm-theme-white
 .mm-search input {
-  background: rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.6);
+  background: white;
+  color: black;
 }
 
 .mm-menu.mm-theme-white
@@ -9925,7 +9925,7 @@ input.mm-toggle:checked ~ label.mm-toggle {
 .mm-menu.mm-theme-black
 .mm-navbar
 a {
-  color: rgba(255, 255, 255, 0.4);
+  color: white;
 }
 
 .mm-menu.mm-theme-black
@@ -9992,7 +9992,7 @@ a:not(.mm-next) {
 }
 
 .mm-menu.mm-theme-black em.mm-counter {
-  color: rgba(255, 255, 255, 0.4);
+  color: white;
 }
 
 .mm-menu.mm-theme-black
@@ -10007,8 +10007,8 @@ a:not(.mm-next) {
 
 .mm-menu.mm-theme-black
 .mm-search input {
-  background: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.6);
+  background: white;
+  color: black;
 }
 
 .mm-menu.mm-theme-black

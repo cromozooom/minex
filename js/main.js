@@ -20,11 +20,7 @@ $(function() {
 		navbar 		: {
 			title		: 'inchide meniul'
 		},
-		navbars		: [
-			{
-				position	: 'top',
-				content		: [ 'searchfield' ]
-			}, {
+		navbars		: [{
 				position	: 'top',
 				content		: [
 					'prev',

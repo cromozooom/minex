@@ -10244,8 +10244,10 @@ input.mm-toggle:checked ~ label.mm-toggle {
 
 .mm-listview > li.lang:after {
   border-bottom-width: 0px;
-  border-bottom-style: solid;
-  border-color: red;
+}
+
+nav#menu form {
+  padding: 20px;
 }
 
 .heroVideo {

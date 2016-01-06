@@ -21,10 +21,11 @@ $(function() {
 			title		: 'inchide meniul'
 		},
 		navbars		: [
+			//{
+			//	position	: 'top',
+			//	content		: [ 'searchfield' ]
+			//},
 			{
-				position	: 'top',
-				content		: [ 'searchfield' ]
-			}, {
 				position	: 'top',
 				content		: [
 					'prev',

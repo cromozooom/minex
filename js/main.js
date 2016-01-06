@@ -20,12 +20,16 @@ $(function() {
 		navbar 		: {
 			title		: 'inchide meniul'
 		},
+<<<<<<< HEAD
 		navbars		: [
 			//{
 			//	position	: 'top',
 			//	content		: [ 'searchfield' ]
 			//},
 			{
+=======
+		navbars		: [{
+>>>>>>> origin/master
 				position	: 'top',
 				content		: [
 					'prev',

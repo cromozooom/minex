@@ -12,7 +12,7 @@ $(function() {
 	$('nav#menu').mmenu({
 		offCanvas: {
                position  : "left",
-               zposition : "front"
+               //zposition : "front"
             },
 		extensions	: [ 'effect-slide-menu' ],
 		searchfield	: true,

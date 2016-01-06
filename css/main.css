@@ -10234,6 +10234,20 @@ input.mm-toggle:checked ~ label.mm-toggle {
   padding: 0;
 }
 
+.mm-panels .lang {
+  display: block;
+  width: 15%;
+  float: left;
+  font-weight: 800;
+  margin-top: 1em;
+}
+
+.mm-listview > li.lang:after {
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-color: red;
+}
+
 .heroVideo {
   position: relative;
   width: 100%;

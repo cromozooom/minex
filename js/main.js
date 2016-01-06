@@ -35,3 +35,5 @@ $(function() {
 		]
 	});
 });
+
+alert("Ne inmultim ca iepuri huh?");

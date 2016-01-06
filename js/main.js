@@ -11,10 +11,10 @@
 $(function() {
 	$('nav#menu').mmenu({
 		offCanvas: {
-               position  : "right",
+               position  : "left",
                zposition : "front"
             },
-		extensions	: [ 'effect-slide-menu', 'pageshadow' ],
+		extensions	: [ 'effect-slide-menu' ],
 		searchfield	: true,
 		counters	: true,
 		navbar 		: {

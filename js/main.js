@@ -15,10 +15,10 @@ $(function() {
                //zposition : "front"
             },
 		extensions	: [ 'effect-slide-menu' ],
-		searchfield	: true,
+		searchfield	: false,
 		counters	: true,
 		navbar 		: {
-			title		: 'inchide meniul'
+			title		: ''
 		},
 <<<<<<< HEAD
 		navbars		: [

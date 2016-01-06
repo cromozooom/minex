@@ -2,28 +2,24 @@ extends layout.jade
 block config
 	- var jquery 		= true
 	- var mmenu 		= true
-	- var bootstrap 	= true
-	- var bxSlider 		= true
-	- var jquerySticky	= true
 	- var smoothScroll	= true
 	- var focusPoint 	= true
 	- var bw 			= true
 	- var analytics		= true
+	- var bxSlider 		= true
 	//-
+		- var jquerySticky	= true
+		- var bootstrap 	= true
 
 block content
 	body.home
 		#page
 			.header
-				a(href="#menu") menu
-				| Demo
-
-			include template/nav
-
-			.pageContent
-
-				//-include template/nav
+				a.menu(href="#menu") menu
 				
+				a.pull-right(href="#")
+					img(src="img/logo.png")
+			.pageContent				
 				include template/video
 				include template/solutiiIntegrate
 				include template/consultanta
@@ -33,5 +29,4 @@ block content
 				include template/referinte
 				include template/contact
 				include template/footer
-
 			include template/nav

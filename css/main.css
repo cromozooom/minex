@@ -10193,31 +10193,30 @@ input.mm-toggle:checked ~ label.mm-toggle {
 }
 
 .header {
-  text-align: center;
-}
-
-.header {
-  background: #777;
+  background: rgba(0, 0, 0, 0.5);
   font-size: 16px;
   font-weight: bold;
   color: #fff;
   line-height: 40px;
   width: 100%;
-  height: 40px;
+  height: 80px;
   padding: 0 50px;
+  position: absolute;
+  z-index: 8;
 }
 
 .header.fixed {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 }
 
-.header a {
+.header a.menu {
   background: center center no-repeat transparent;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
   position: absolute;
   top: 0;
   left: 10px;

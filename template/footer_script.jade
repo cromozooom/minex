@@ -1,14 +1,29 @@
-block footerScript		
+block footerScript
+	if jquery
+		//- script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
+		//- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+		script(src="js/jquery-1.11.3.min.js")
+		//- script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js")
+
+
+	if mmenu
+		//-link(href="path/to/jquery.mmenu.css" type="text/css" rel="stylesheet")
+		//-link(href="path/to/jquery.mmenu.themes.css" type="text/css" rel="stylesheet")
+		script(src="js/mmenu/jquery.mmenu.min.all.js" type="text/javascript")
+
 	if bootstrap
 		script(src="js/javascripts/bootstrap.min.js")
 
-	script(src="js/main.js")
-	
 	if bxSlider
 		script(src="js/bxSlider/jquery.bxslider.min.js")
 		script(src="js/bxSlider/jquery.bxslider_my.js")
+	
+	script(src="js/main.js")
+	
+	if smoothScroll
+		script(src="js/smoothScroll/smoothScroll.js")
 
-
+	
 	if focusPoint
 		script(src="js/focusPoint/jquery.focuspoint.min.js")
 		script(src="js/focusPoint/jquery.focuspoint_my.js")
@@ -18,8 +33,7 @@ block footerScript
 		script(src="js/bw/bw.js")
 		script(src="js/bw/bw_my.js")
 
-	if smoothScroll
-		script(src="js/smoothScroll/smoothScroll.js")
+	
 	
 	if jquerySticky		
 		script(src="js/jquerySticky/jquerySticky.js")

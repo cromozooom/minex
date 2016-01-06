@@ -10,6 +10,10 @@
 
 $(function() {
 	$('nav#menu').mmenu({
+		offCanvas: {
+               position  : "right",
+               //zposition : "front"
+            },
 		extensions	: [ 'effect-slide-menu', 'pageshadow' ],
 		searchfield	: true,
 		counters	: true,

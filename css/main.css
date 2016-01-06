@@ -10219,7 +10219,7 @@ input.mm-toggle:checked ~ label.mm-toggle {
   line-height: 80px;
   position: absolute;
   top: 0;
-  left: 10px;
+  right: 20px;
 }
 
 .pageContent {

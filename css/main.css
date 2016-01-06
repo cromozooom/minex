@@ -10205,7 +10205,7 @@ input.mm-toggle:checked ~ label.mm-toggle {
 }
 
 .header a.logoBrand {
-  margin-top: 10px;
+  padding: 10px;
 }
 
 .header.fixed {

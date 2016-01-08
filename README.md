@@ -4,6 +4,10 @@ Descarca arhiva si fa UPLOAD, dar filtreaza fisierele de tip **sass** & **jade**
 
 ----------
 
+developement
+1. [Home page](www.9online.ro/minex)
+
+----------
 
 Pagini realizate
 -------------

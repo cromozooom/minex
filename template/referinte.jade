@@ -14,14 +14,15 @@ section.section--secondary
 				.focuspoint.focuspoint--round-right(data-focus-x="-0.2" data-focus-y="0.25" data-image-w="1285" data-image-h="1090")
 					img(src="img/image05.jpg" alt="")
 		br
+	.container
 		.row.row--no-gutter
 			mixin gridProject(image, title, copy)
 				.col-xs-6.col-sm-4.col-md-4.col-lg-3.gridProject
-					a(href="www.solopx.com")
+					a.gridProject-link(href="www.solopx.com")
 						.copy
 							h5= title
 							p= copy
-						img.img-responsive(src="img/testimonial_#{image}.jpg" alt="")
+						img.img-responsive(src="img/circle/testimonial_#{image}.jpg" alt="")
 			+gridProject("01", "TITLE PROJECT (UK)", "vezi proiectul daewoo")
 			+gridProject("02", "TITLE PROJECT (UK)", "vezi proiectul daewoo")
 			+gridProject("03", "TITLE PROJECT (UK)", "vezi proiectul daewoo")

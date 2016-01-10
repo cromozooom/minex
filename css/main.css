@@ -10825,7 +10825,14 @@ nav#menu form {
   }
 }
 
+.gridProject .gridProject-link {
+  padding: 2em;
+  width: 100%;
+  display: block;
+}
+
 .gridProject img {
+  border-radius: 50%;
   -webkit-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
   filter: gray;
@@ -10833,6 +10840,7 @@ nav#menu form {
   filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+  margin-bottom: 3em;
 }
 
 .gridProject img:hover {
@@ -10963,14 +10971,14 @@ nav#menu form {
   position: relative;
 }
 
-.gridProject a h5 {
+.gridProject .gridProject-link h5 {
   z-index: 2;
   font-weight: 700;
-  color: white;
+  color: #ff7200;
 }
 
-.gridProject a:hover {
-  color: white;
+.gridProject .gridProject-link:hover {
+  color: black;
 }
 
 .gridProject .copy {
@@ -10982,7 +10990,6 @@ nav#menu form {
   -webkit-transform: translate(-50%, 0%);
       -ms-transform: translate(-50%, 0%);
           transform: translate(-50%, 0%);
-  background: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 

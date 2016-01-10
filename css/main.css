@@ -7918,7 +7918,7 @@ h1, h2, h3, h4 {
 }
 
 .categ .focuspoint, .prod .focuspoint, .noutati .focuspoint, .referinte .focuspoint, .testimoniale .focuspoint {
-  height: 400px;
+  height: 20vh;
 }
 
 /*
@@ -10888,6 +10888,10 @@ nav#menu form {
   text-decoration: none;
 }
 
+.categorii .badge {
+  float: right;
+}
+
 .icons {
   margin-top: 2em;
 }
@@ -10907,6 +10911,21 @@ nav#menu form {
 
 .sidebar .icons img {
   margin: 0 auto 1em auto;
+}
+
+.icons {
+  margin-top: 2em;
+}
+
+.icons img {
+  margin: 0 auto 1em auto;
+}
+
+.icons p {
+  height: 3em;
+  display: block;
+  float: left;
+  width: 100%;
 }
 
 @media (min-width: 770px) {

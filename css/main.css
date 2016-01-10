@@ -10960,15 +10960,6 @@ nav#menu form {
   }
 }
 
-@media (min-width: 992px) {
-  .prodGrid li:nth-child(2n+2), .prodGrid li:nth-child(3n+3) {
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  .prodGrid li:nth-child(4n+4) {
-    border-right: 0;
-  }
-}
-
 #footer {
   background: rgba(0, 0, 0, 0.2);
 }

@@ -1,0 +1,72 @@
+extends layout.jade
+block config
+	- var jquery 		= true
+	- var bootstrap 	= true
+	- var focusPoint 	= true
+	- var analytics		= true
+	- var bw 			= true
+	//- 
+		- var jquerySticky	= true
+		- var smoothScroll	= true
+		- var bxSlider 		= true
+block content
+	body.iqIndustrial
+		include template/nav
+		section
+			.container-fluid.container-fluid--fullwidth
+				.row.row--no-gutter.row--hero
+					.focuspoint(data-focus-x="0" data-focus-y="0" data-image-w="1920" data-image-h="580")
+						img(src="img/news_hero.jpg" alt="")
+		section.new
+			.container
+				.col-xs-12.col-sm-8
+					h1 IQ Industrial
+					h3
+						| Premiile pietei de constructii EURO-Constructii 2015
+						br
+						small.data 23.09.2015
+					img.img-responsive(img src="img/news.jpg" alt="")
+					hr
+					p
+						| Un numar total de 69 de companii si 11 organizatii institutionale importante din domeniu au fost premiate in cadrul festivitatii de decernare a Premiilor Pietei de Constructii & Instalatii EURO-Constructii 2015 (Trofeul EURO-Constructii si/sau Diploma de Excelenta). Evenimentul s-a aflat la editia a doua si s-a desfasurat la Radisson Blu Hotel Bucuresti, la data de 25 mai 2015. Jurizarea a fost asigurata de catre membrii redactiei revistei Agenda Constructiilor, selectia si clasificarea societatilor reprezentative fiind realizata in functie de notorietate, transparenta, rezultate financiare, investitii, proiecte derulate etc.
+					p
+						| Au fost evidentiate realizarile firmelor din domeniul constructiilor eficiente energetic (sustenabile), reprezentate prin dezvoltarea de produse noi (cum este cazul furnizorilor), executia de cladiri (antreprenori si firme de executie), dezvoltare (arhitectura, proiectare, consultanta, finantare etc.) si din sectorul organizational (asociatii, patronate, institutii etc.). 
+					p
+						| Evenimentul - parte integranta a Conferintei EURO-Constructii 2015 (editia a patra) - a reprezentat un prilej optim pentru a recompensa excelenta in afaceri a companiilor ce activeaza in sectorul national de constructii si instalatii, la manifestare participand peste 360 de invitati. 
+
+					p
+						| Premiile EURO-Constructii sunt acordate anual, firmele fiind grupate in urmatoarele sectiuni:
+					ul
+						li DEZVOLTARE & AFACERI 
+						li INOVAȚII & TEHNOLOGIE 
+						li SUSTENABILITATE & CSR 
+						li RELIABLE BRANDS
+
+					p 
+						| Cele 80 de trofee au fost acordate pentru promovarea de solutii inovatoare in domeniul constructiilor sustenabile si contributia speciala adusa la dezvoltarea pietei de constructii si instalatii din Romania.
+				.col-xs-12.col-sm-4
+					h4 Alte categorii
+					.row.icons
+						.col-xs-6
+							a(href="solopx.com")
+								img.img-responsive(src="img/icon01.jpg" alt="")
+						.col-xs-6
+							a(href="solopx.com")
+								img.img-responsive(src="img/icon02.jpg" alt="")
+						.col-xs-6
+							a(href="solopx.com")
+								img.img-responsive(src="img/icon03.jpg" alt="")
+						.col-xs-6
+							a(href="solopx.com")
+								img.img-responsive(src="img/icon04.jpg" alt="")
+						.col-xs-6
+							a(href="solopx.com")
+								img.img-responsive(src="img/icon01.jpg" alt="")
+						.col-xs-6
+							a(href="solopx.com")
+								img.img-responsive(src="img/icon02.jpg" alt="")
+						
+
+		include template/gridNews.jade
+
+		include template/footer

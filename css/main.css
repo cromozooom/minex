@@ -7917,8 +7917,8 @@ h1, h2, h3, h4 {
   display: block;
 }
 
-.categ .focuspoint, .prod .focuspoint, .noutati .focuspoint, .referinte .focuspoint, .testimoniale .focuspoint {
-  height: 20vh;
+.categ .focuspoint, .prod .focuspoint, .noutati .focuspoint, .referinte .focuspoint, .testimoniale .focuspoint, .iqIndustrial .focuspoint {
+  height: 30vh;
 }
 
 /*

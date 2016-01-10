@@ -10825,10 +10825,36 @@ nav#menu form {
   }
 }
 
+.gridProject {
+  position: relative;
+}
+
 .gridProject .gridProject-link {
   padding: 2em;
   width: 100%;
   display: block;
+}
+
+.gridProject .gridProject-link h5 {
+  z-index: 2;
+  font-weight: 700;
+  color: black;
+}
+
+.gridProject .gridProject-link:hover {
+  color: #ff7200;
+}
+
+.gridProject .copy {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  -webkit-transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  z-index: 1;
 }
 
 .gridProject img {
@@ -10965,32 +10991,6 @@ nav#menu form {
 #map {
   width: 100%;
   height: 100vh;
-}
-
-.gridProject {
-  position: relative;
-}
-
-.gridProject .gridProject-link h5 {
-  z-index: 2;
-  font-weight: 700;
-  color: #ff7200;
-}
-
-.gridProject .gridProject-link:hover {
-  color: black;
-}
-
-.gridProject .copy {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  bottom: 0%;
-  -webkit-transform: translate(-50%, 0%);
-      -ms-transform: translate(-50%, 0%);
-          transform: translate(-50%, 0%);
-  z-index: 1;
 }
 
 nav:not(.mm-menu) {

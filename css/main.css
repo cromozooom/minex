@@ -10877,6 +10877,16 @@ nav#menu form {
           filter: grayscale(0%);
 }
 
+.prodGrid h4 {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.2em;
+  height: 4.8em;
+  display: block;
+  float: left;
+  color: #727272;
+}
+
 .breadcrumb {
   background-color: transparent;
   font-size: 2rem;

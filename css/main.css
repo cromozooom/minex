@@ -10340,6 +10340,10 @@ nav#menu form {
   color: #333333;
 }
 
+.section--secondary .copy p {
+  color: #ff7200;
+}
+
 .section--secondary .container-fluid {
   padding-top: 2em;
   background-color: white;

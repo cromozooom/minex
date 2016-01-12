@@ -10370,6 +10370,10 @@ nav#menu form {
   color: white;
 }
 
+.section--primary p, .section--primary ul {
+  color: #333333;
+}
+
 .section--primary .container-fluid {
   padding-top: 2em;
   background-color: #ff7200;

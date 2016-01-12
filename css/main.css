@@ -10336,6 +10336,10 @@ nav#menu form {
   color: #ff7200;
 }
 
+.section--secondary p, .section--secondary ul {
+  color: #333333;
+}
+
 .section--secondary .container-fluid {
   padding-top: 2em;
   background-color: white;
@@ -10368,10 +10372,6 @@ nav#menu form {
 
 .section--primary {
   color: white;
-}
-
-.section--primary p, .section--primary ul {
-  color: #333333;
 }
 
 .section--primary .container-fluid {
@@ -10736,7 +10736,7 @@ nav#menu form {
 }
 
 .description p {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .details .tab-content {

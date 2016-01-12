@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$('.bx-simlar').bxSlider({
 		minSlides: 2,
 		maxSlides: 6,
-		slideWidth: 170,
+		slideWidth: 230,
 		slideMargin: 10
 	});
 });

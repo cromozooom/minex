@@ -8292,7 +8292,7 @@ h1, h2, h3, h4 {
 }
 
 .heroVideo .text h1 {
-  font-size: 1.4em;
+  font-size: .8em;
   position: absolute;
   text-transform: uppercase;
   width: 100%;
@@ -8321,16 +8321,16 @@ h1, h2, h3, h4 {
 .heroVideo .circleButton {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: -5px;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  height: 1.8em;
-  width: 1.8em;
+  height: 1.4em;
+  width: 1.4em;
   text-align: center;
-  line-height: 2em;
+  line-height: 1.6em;
   display: block;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 50%;
   margin: 0 auto;
 }
@@ -8345,6 +8345,34 @@ h1, h2, h3, h4 {
 
 .heroVideo a:hover {
   color: #ff7200;
+}
+
+@media (min-width: 770px) {
+  .heroVideo .text {
+    font-size: 4rem;
+  }
+  .heroVideo .text h1 {
+    font-size: 1.4em;
+  }
+  .heroVideo .text h1 small {
+    font-size: .5em;
+    line-height: 1em;
+  }
+  .heroVideo .circleButton {
+    height: 1.8em;
+    width: 1.8em;
+    line-height: 2em;
+    border: 2px solid white;
+  }
+  .heroVideo .circleButton:hover {
+    border: 2px solid #ff7200;
+  }
+  .heroVideo a {
+    color: white;
+  }
+  .heroVideo a:hover {
+    color: #ff7200;
+  }
 }
 
 .container-fluid--fullwidth {

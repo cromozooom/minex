@@ -8327,13 +8327,21 @@ h1, h2, h3, h4 {
   text-align: center;
   line-height: 2em;
   display: block;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
   margin: 0 auto;
 }
 
+.heroVideo .circleButton:hover {
+  border: 2px solid #ff7200;
+}
+
 .heroVideo a {
   color: white;
+}
+
+.heroVideo a:hover {
+  color: #ff7200;
 }
 
 .container-fluid--fullwidth {

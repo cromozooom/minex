@@ -50,6 +50,7 @@
 				display: block
 				font-size: .5em
 				line-height: 1em
+
 	.circleButton
 		position: absolute
 		left: 50%
@@ -60,9 +61,14 @@
 		text-align: center
 		line-height: 2em
 		display: block
-		border: 1px solid white
+		border: 2px solid white
 		//color: white
 		border-radius: 50%
 		margin: 0 auto
+		&:hover
+			border: 2px solid $brand-primary
 	a
 		color: white
+		&:hover
+			color: $brand-primary
+

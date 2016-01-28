@@ -4,7 +4,11 @@ block footerScript
 		//- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 		script(src="js/jquery-1.11.3.min.js")
 		//- script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js")
-
+	
+	if autoHidingNav 
+		script(src="js/autoHidingNav/jquery.bootstrap-autohidingnavbar.min.js")
+		script
+			$("div.navbar-fixed-top").autoHidingNavbar();
 
 	if mmenu
 		//-link(href="path/to/jquery.mmenu.css" type="text/css" rel="stylesheet")

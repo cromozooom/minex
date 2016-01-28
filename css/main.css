@@ -8261,9 +8261,11 @@ h1, h2, h3, h4 {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  background: url("../img/hero.jpg") center center/cover no-repeat;
 }
 
 .heroVideo video {
+  background: transparent;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -8356,6 +8358,14 @@ h1, h2, h3, h4 {
   margin-right: 0;
 }
 
+#section01 hr {
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+#section01 .row.icons p {
+  color: white;
+}
+
 .section--secondary {
   color: #ff7200;
 }
@@ -8383,19 +8393,19 @@ h1, h2, h3, h4 {
   font-weight: 800;
 }
 
-.section--secondary .row--hero blockquote {
+.section--secondary h2 {
+  color: inherit;
+}
+
+blockquote.home {
   border: 1px solid rgba(0, 0, 0, 0.2);
   color: inherit;
   margin-top: 1em;
 }
 
-.section--secondary .row--hero blockquote span.circleQuote {
-  color: white;
-  background-color: #ff7200;
-}
-
-.section--secondary h2 {
-  color: inherit;
+blockquote.home span.circleQuote {
+  background-color: white;
+  color: #ff7200;
 }
 
 .section--primary {
@@ -8436,11 +8446,11 @@ h1, h2, h3, h4 {
   font-size: 1.2em;
 }
 
-.row--hero blockquote {
+blockquote.home {
   position: relative;
 }
 
-.row--hero blockquote span.circleQuote {
+blockquote.home span.circleQuote {
   display: block;
   font-size: 5rem;
   width: .8em;

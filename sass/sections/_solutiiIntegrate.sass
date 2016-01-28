@@ -6,7 +6,12 @@
 		margin-left: 0
 		margin-right: 0
 
-
+#section01
+	hr
+		border-top-color: rgba(black, .1)
+	.row.icons
+		p
+			color: white
 
 // primary & secondary section
 .section--secondary
@@ -26,17 +31,17 @@
 			color: inherit
 			text-transform: uppercase
 			font-weight: 800
-		blockquote
-			border: 1px solid rgba(0, 0, 0, 0.2)
-			color: inherit
-			margin-top: 1em
-			span.circleQuote
-				color:  white
-				background-color: $brand-primary
 	h2
 		color: inherit
 		//font-weight: 800
 	
+blockquote.home
+	border: 1px solid rgba(0, 0, 0, 0.2)
+	color: inherit
+	margin-top: 1em
+	span.circleQuote
+		background-color:  white
+		color: $brand-primary
 
 .section--primary
 	color: white
@@ -66,20 +71,20 @@
 .lead--small
 	font-size: 1.2em
 
-.row--hero
-	blockquote
-		position: relative
-		span.circleQuote
-			display: block
-			font-size: 5rem
-			width: .8em
-			height: .8em
-			line-height: 1.3em
-			top: -0.4em
-			left: -0.4em
-			position: absolute
-			text-align: center
-			border-radius: 50%
+
+blockquote.home
+	position: relative
+	span.circleQuote
+		display: block
+		font-size: 5rem
+		width: .8em
+		height: .8em
+		line-height: 1.3em
+		top: -0.4em
+		left: -0.4em
+		position: absolute
+		text-align: center
+		border-radius: 50%
 
 
 .row--no-gutter

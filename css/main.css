@@ -8205,7 +8205,7 @@ h1, h2, h3, h4 {
   position: static;
 }
 
-.yamm .container {
+.yamm .container-fluid {
   position: relative;
 }
 
@@ -8220,6 +8220,57 @@ h1, h2, h3, h4 {
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 0;
   right: 0;
+}
+
+.yamm .dropdown-menu {
+  border: 0px;
+  border-radius: 0;
+  box-shadow: 0 0px 0px white;
+  background-clip: padding-box;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background: #ff7200;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default {
+  border: 0;
+  border-radius: 0;
+}
+
+.yamm .dropdown-menu {
+  border: 0px;
+  border-radius: 0;
+  box-shadow: 0 0px 0px white;
+  background-clip: padding-box;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background: #ff7200;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default {
+  border: 0;
+  border-radius: 0;
+}
+
+.yamm-content ul li {
+  list-style: none;
+}
+
+.yamm-content ul li a {
+  display: block;
+  padding: .5em 0;
 }
 
 .heroVideo {
@@ -8256,9 +8307,11 @@ h1, h2, h3, h4 {
 }
 
 .heroVideo .text h1 {
-  font-size: 1em;
+  font-size: 1.4em;
   position: absolute;
   text-transform: uppercase;
+  width: 100%;
+  padding: 0 40px;
   top: 50%;
   left: 50%;
   font-weight: 800;
@@ -8272,8 +8325,11 @@ h1, h2, h3, h4 {
 }
 
 .heroVideo .text h1 small {
+  text-transform: lowercase;
   color: white;
+  display: block;
   font-size: .5em;
+  line-height: 1em;
 }
 
 .heroVideo .circleButton {

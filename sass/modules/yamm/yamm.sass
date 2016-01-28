@@ -10,23 +10,40 @@
 //-----------------------------
 
 .yamm
-  // reset positions
-  .nav, .collapse, .dropup, .dropdown
-    position: static
+	// reset positions
+	.nav, .collapse, .dropup, .dropdown
+		position: static
 
-  // propagate menu position under container for fw navbars
-  .container
-    position: relative
+	// propagate menu position under container for fw navbars
+	.container-fluid
+		position: relative
 
-  // by default aligns menu to left
-  .dropdown-menu
-    left: auto
+	// by default aligns menu to left
+	.dropdown-menu
+		left: auto
 
-  // Content with padding
-  .yamm-content
-    padding: 20px 30px
+	// Content with padding
+	.yamm-content
+		padding: 20px 30px
 
-  // Fullwidth menu
-  .dropdown.yamm-fw .dropdown-menu
-    left: 0
-    right: 0
+	// Fullwidth menu
+	.dropdown.yamm-fw .dropdown-menu
+		left: 0
+		right: 0
+
+	.dropdown-menu
+		border: 0px
+		border-radius: 0
+		box-shadow: 0 0px 0px white
+		background-clip: padding-box
+
+.navbar
+	margin-bottom: 0
+	background: $brand-primary
+
+.navbar-default .navbar-nav > li > a
+		color: white
+
+.navbar-default
+	border: 0
+	border-radius: 0

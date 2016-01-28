@@ -1,99 +1,184 @@
 // Demo navbar 
-.navbar.yamm.navbar-default.navbar-fixed-top
-	.container
+.navbar.yamm.navbar-default
+	.container-fluid
 		.navbar-header
 			button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-collapse-1')
 				span.icon-bar
 				span.icon-bar
 				span.icon-bar
-			a.navbar-brand(href='#') Yamm Megamenu
+			a.navbar-brand(href='#')  
 		#navbar-collapse-1.navbar-collapse.collapse
-			ul.nav.navbar-nav
-				// Classic list 
-				li.dropdown
+			ul.nav.navbar-nav.pull-right
+				li
+					a(href="") Home
+				//- Classic list 
+					li.dropdown
+						a.dropdown-toggle(href='#', data-toggle='dropdown')
+							| List
+							b.caret
+						ul.dropdown-menu
+							li
+								// Content container to add padding 
+								.yamm-content
+									.row
+										ul.col-sm-2.list-unstyled
+											li
+												p: strong Section Title
+											li List Item
+											li List Item
+											li List Item
+											li List Item
+											li List Item
+											li List Item
+										ul.col-sm-2.list-unstyled
+											li
+												p: strong Links Title
+											li: a(href='#')  Link Item 
+											li: a(href='#')  Link Item 
+											li: a(href='#')  Link Item 
+											li: a(href='#')  Link Item 
+											li: a(href='#')  Link Item 
+											li: a(href='#')  Link Item 
+										ul.col-sm-2.list-unstyled
+											li
+												p: strong Section Title
+											li List Item
+											li List Item
+											li List Item
+											li List Item
+											li List Item
+											li List Item
+										ul.col-sm-2.list-unstyled
+											li
+												p: strong Section Title
+											li List Item
+											li List Item
+											li
+												ul
+													li: a(href='#')  Link Item 
+													li: a(href='#')  Link Item 
+													li: a(href='#')  Link Item 
+				//- Accordion demo 
+					li.dropdown
+						a.dropdown-toggle(href='#', data-toggle='dropdown')
+							| Accordion
+							b.caret
+						ul.dropdown-menu
+							li
+								.yamm-content
+									.row
+										#accordion.panel-group
+											.panel.panel-default
+												.panel-heading
+													h4.panel-title
+														a(data-toggle='collapse', data-parent='#accordion', href='#collapseOne')
+															| Collapsible Group Item #1
+												#collapseOne.panel-collapse.collapse.in
+													.panel-body
+														| Ut consectetur ullamcorper purus a rutrum. Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna. 
+											.panel.panel-default
+												.panel-heading
+													h4.panel-title
+														a(data-toggle='collapse', data-parent='#accordion', href='#collapseTwo')
+															| Collapsible Group Item #2
+												#collapseTwo.panel-collapse.collapse
+													.panel-body
+														| Nullam pretium fermentum sapien ut convallis. Suspendisse vehicula, magna non tristique tincidunt, massa nisi luctus tellus, vel laoreet sem lectus ut nibh. 
+											.panel.panel-default
+												.panel-heading
+													h4.panel-title
+														a(data-toggle='collapse', data-parent='#accordion', href='#collapseThree')
+															| Collapsible Group Item #3
+												#collapseThree.panel-collapse.collapse
+													.panel-body
+														| Praesent leo quam, faucibus at facilisis id, rhoncus sit amet metus. Sed vitae ipsum non nibh mattis congue eget id augue. 
+				// Produse 
+				li.dropdown.yamm-fw
 					a.dropdown-toggle(href='#', data-toggle='dropdown')
-						| List
+						| Produse
 						b.caret
 					ul.dropdown-menu
 						li
-							// Content container to add padding 
 							.yamm-content
-								.row
-									ul.col-sm-2.list-unstyled
-										li
-											p: strong Section Title
-										li List Item
-										li List Item
-										li List Item
-										li List Item
-										li List Item
-										li List Item
-									ul.col-sm-2.list-unstyled
-										li
-											p: strong Links Title
-										li: a(href='#')  Link Item 
-										li: a(href='#')  Link Item 
-										li: a(href='#')  Link Item 
-										li: a(href='#')  Link Item 
-										li: a(href='#')  Link Item 
-										li: a(href='#')  Link Item 
-									ul.col-sm-2.list-unstyled
-										li
-											p: strong Section Title
-										li List Item
-										li List Item
-										li List Item
-										li List Item
-										li List Item
-										li List Item
-									ul.col-sm-2.list-unstyled
-										li
-											p: strong Section Title
-										li List Item
-										li List Item
-										li
+								.container
+									.row
+										.col-xs-6.col-sm-4
 											ul
-												li: a(href='#')  Link Item 
-												li: a(href='#')  Link Item 
-												li: a(href='#')  Link Item 
-				// Accordion demo 
-				li.dropdown
-					a.dropdown-toggle(href='#', data-toggle='dropdown')
-						| Accordion
-						b.caret
-					ul.dropdown-menu
-						li
-							.yamm-content
-								.row
-									#accordion.panel-group
-										.panel.panel-default
-											.panel-heading
-												h4.panel-title
-													a(data-toggle='collapse', data-parent='#accordion', href='#collapseOne')
-														| Collapsible Group Item #1
-											#collapseOne.panel-collapse.collapse.in
-												.panel-body
-													| Ut consectetur ullamcorper purus a rutrum. Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna. 
-										.panel.panel-default
-											.panel-heading
-												h4.panel-title
-													a(data-toggle='collapse', data-parent='#accordion', href='#collapseTwo')
-														| Collapsible Group Item #2
-											#collapseTwo.panel-collapse.collapse
-												.panel-body
-													| Nullam pretium fermentum sapien ut convallis. Suspendisse vehicula, magna non tristique tincidunt, massa nisi luctus tellus, vel laoreet sem lectus ut nibh. 
-										.panel.panel-default
-											.panel-heading
-												h4.panel-title
-													a(data-toggle='collapse', data-parent='#accordion', href='#collapseThree')
-														| Collapsible Group Item #3
-											#collapseThree.panel-collapse.collapse
-												.panel-body
-													| Praesent leo quam, faucibus at facilisis id, rhoncus sit amet metus. Sed vitae ipsum non nibh mattis congue eget id augue. 
+												li: a(href="") Aplicare chituri, masticuri si adezivi
+												li: a(href="") Aplicare fibra de sticla
+												li: a(href="") Aplicare poliurea
+												li: a(href="") Aspiratie
+												li: a(href="") Controlul calitatii
+												li: a(href="") Dezumidificare
+										.col-xs-6.col-sm-3
+											ul
+												li: a(href="") Ecruisare
+												li: a(href="") Incalzire
+												li: a(href="") Manipulare profile
+												li: a(href="") Metalizare
+												li: a(href="") Procesare table si profile
+										.col-xs-6.col-sm-3
+											ul
+												li: a(href="") Sablare
+												li: a(href="") Sudura profile
+												li: a(href="") Taiere cu plasma si oxigaz
+												li: a(href="") Transvazare lichide
+												li: a(href="") Ventilatie desprafuire
+												li: a(href="") Vopsire
+
+									//- .row
+										.col-xs-6.col-sm-3
+											h4 Aplicare
+											ul
+												li
+													a(href="") chituri
+												li
+													a(href="") masticuri
+												li
+													a(href="") adezivi
+												li
+													a(href="") fibra de sticla
+												li
+													a(href="") poliurea
+
+										.col-xs-6.col-sm-3
+											ul
+												li
+													a(href="") Aspiratie
+												li
+													a(href="") Controlul calitatii
+												li
+													a(href="") Dezumidificare
+												li
+													a(href="") Ecruisare
+										.col-xs-6.col-sm-3
+											ul
+												li
+													a(href="") Incalzire
+												li
+													a(href="") Manipulare profile
+												li
+													a(href="") Metalizare
+												li
+													a(href="") Procesare table si profile
+										.col-xs-6.col-sm-3
+											ul
+												li
+													a(href="") Sablare
+												li
+													a(href="") Sudura profile
+												li
+													a(href="") Taiere cu plasma si oxigaz
+												li
+													a(href="") Transvazare lichide
+												li
+													a(href="") Ventilatie desprafuire
+												li
+													a(href="") Vopsire
 				// Classic dropdown 
 				li.dropdown
 					a.dropdown-toggle(href='#', data-toggle='dropdown')
-						| Classic
+						| IQ industrial
 						b.caret
 					ul.dropdown-menu(role='menu')
 						li
@@ -102,33 +187,13 @@
 							a(tabindex='-1', href='#')  Another action 
 						li
 							a(tabindex='-1', href='#')  Something else here 
-						li.divider
 						li
-							a(tabindex='-1', href='#')  Separated link 
-				// Pictures 
-				li.dropdown.yamm-fw
-					a.dropdown-toggle(href='#', data-toggle='dropdown')
-						| Pictures
-						b.caret
-					ul.dropdown-menu
-						li
-							.yamm-content
-								.row
-									.col-xs-6.col-sm-2
-										a.thumbnail(href='#')
-											img(alt='150x190', src='demo/img/190.jpg')
-									.col-xs-6.col-sm-2
-										a.thumbnail(href='#')
-											img(alt='150x190', src='demo/img/190.jpg')
-									.col-xs-6.col-sm-2
-										a.thumbnail(href='#')
-											img(alt='150x190', src='demo/img/190.jpg')
-									.col-xs-6.col-sm-2
-										a.thumbnail(href='#')
-											img(alt='150x190', src='demo/img/190.jpg')
-									.col-xs-6.col-sm-2
-										a.thumbnail(href='#')
-											img(alt='150x190', src='demo/img/190.jpg')
-									.col-xs-6.col-sm-2
-										a.thumbnail(href='#')
-											img(alt='150x190', src='demo/img/190.jpg')
+							a(tabindex='-1', href='#')  Separated link
+				li
+					a(href="") Referinte
+				li
+					a(href="") Noutati
+				li
+					a(href="") Testimoniale
+				li
+					a(href="") Contact				

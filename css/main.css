@@ -8308,6 +8308,7 @@ h1, h2, h3, h4 {
 }
 
 .heroVideo .text h1 small {
+  padding-top: 1em;
   text-transform: lowercase;
   color: white;
   display: block;

@@ -1,0 +1,27 @@
+extends layout.jade
+block config
+	- var jquery 		= true
+	- var mmenu 		= true
+	- var focusPoint 	= true
+	- var bw 			= true
+	- var analytics		= true
+	- var bxSlider 		= true
+	- var yamm 			= true
+	
+	//-
+		- var smoothScroll	= true
+		- var jquerySticky	= true
+		- var bootstrap 	= true
+
+block content
+	body.home
+		include template/bootstrap_nav
+		//-content
+		include template/video
+		include template/solutiiIntegrate
+		include template/consultanta
+		include template/montaj
+		include template/referinte
+		include template/solutii_complete	
+		include template/contact
+		include template/footer

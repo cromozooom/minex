@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sample Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href="css/focuspoint.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- aci scrii tu in css- ul aista -->
+    <link href="css/stefanicu.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo:400,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+  </head>
+  <body class="home">
+    <!-- Demo navbar -->
+    <div class="navbar yamm navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Yamm Megamenu</a>
+        </div>
+        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <!-- Classic list -->
+            <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">List<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <!-- Content container to add padding -->
+                  <div class="yamm-content">
+                    <div class="row">
+                      <ul class="col-sm-2 list-unstyled">
+                        <li>
+                          <p><strong>Section Title</strong></p>
+                        </li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                      </ul>
+                      <ul class="col-sm-2 list-unstyled">
+                        <li>
+                          <p><strong>Links Title</strong></p>
+                        </li>
+                        <li><a href="#"> Link Item </a></li>
+                        <li><a href="#"> Link Item </a></li>
+                        <li><a href="#"> Link Item </a></li>
+                        <li><a href="#"> Link Item </a></li>
+                        <li><a href="#"> Link Item </a></li>
+                        <li><a href="#"> Link Item </a></li>
+                      </ul>
+                      <ul class="col-sm-2 list-unstyled">
+                        <li>
+                          <p><strong>Section Title</strong></p>
+                        </li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                      </ul>
+                      <ul class="col-sm-2 list-unstyled">
+                        <li>
+                          <p><strong>Section Title</strong></p>
+                        </li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>
+                          <ul>
+                            <li><a href="#"> Link Item </a></li>
+                            <li><a href="#"> Link Item </a></li>
+                            <li><a href="#"> Link Item </a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- Accordion demo -->
+            <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Accordion<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="yamm-content">
+                    <div class="row">
+                      <div id="accordion" class="panel-group">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Collapsible Group Item #1</a></h4>
+                          </div>
+                          <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">Ut consectetur ullamcorper purus a rutrum. Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna. </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Collapsible Group Item #2</a></h4>
+                          </div>
+                          <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">Nullam pretium fermentum sapien ut convallis. Suspendisse vehicula, magna non tristique tincidunt, massa nisi luctus tellus, vel laoreet sem lectus ut nibh. </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Collapsible Group Item #3</a></h4>
+                          </div>
+                          <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">Praesent leo quam, faucibus at facilisis id, rhoncus sit amet metus. Sed vitae ipsum non nibh mattis congue eget id augue. </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- Classic dropdown -->
+            <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classic<b class="caret"></b></a>
+              <ul role="menu" class="dropdown-menu">
+                <li><a tabindex="-1" href="#"> Action </a></li>
+                <li><a tabindex="-1" href="#"> Another action </a></li>
+                <li><a tabindex="-1" href="#"> Something else here </a></li>
+                <li class="divider"></li>
+                <li><a tabindex="-1" href="#"> Separated link </a></li>
+              </ul>
+            </li>
+            <!-- Pictures -->
+            <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Pictures<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="yamm-content">
+                    <div class="row">
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                      <div class="col-xs-6 col-sm-2"><a href="#" class="thumbnail"><img alt="150x190" src="demo/img/190.jpg"></a></div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="heroVideo">
+      <video poster="img/hero.jpg" autoplay="true" loop>
+        <source src="video/sample.mp4" type="video/mp4">
+        <source src="video/sample.webm" type="video/webm">
+      </video>
+      <div class="text">
+        <h1 class="text-center"><small class="text-center">Solutii complete pentru tratarea suprafetelor</small><br><span>Idei cu </span>experienta</h1><a href="#section01" class="circleButton"><span class="glyphicon glyphicon-menu-down"></span></a>
+      </div>
+    </div>
+    <section id="section01" class="section--primary">
+      <div class="container-fluid container-fluid--fullwidth">
+        <div class="row row--no-gutter row--hero">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-same-height">
+            <div data-focus-x="0.5" data-focus-y="-0.3" data-image-w="1285" data-image-h="1090" class="focuspoint focuspoint--round-left"><img src="img/image01.jpg" alt=""></div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-same-height">
+            <div class="content">
+              <h1>Solutii Integrate</h1>
+              <blockquote>INOVAREA E MAI MULT DECAT TEHNOLOGIE.<br>“A INOVA” INSEAMNA A OFERI TRECUTULUI O IMAGINE NOUA<span class="circleQuote">"</span></blockquote>
+              <p>Nevoile individuale ale clienţilor noştri sunt punctul de pornire al proiectelor Minex. În funcţie de dimensiunile pieselor ce urmează a fi procesate si de materialele din care acestea sunt constituite, Minex România te consiliază în alegerea celei mai potrivite soluţii tehnice privind tratarea suprafeţelor, astfel încât rezultatul final al lucrărilor tale să corespundă celui mai bun raport calitate-investiţie.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="container">
+            <div class="row row--content">
+              <div class="col-sm-12 col-md-4">
+                <p>Privim procesele în perspectivă. Propunem exclusiv formule care au în vedere reducerea costurilor de producţie în contextul creşterii performanţei şi a gradului de flexibilitate necesar adaptării la situaţiile curente de piaţă.<br>Minex este mai mult decât un furnizor de echipamente. Indiferent dacă este vorba despre sablare, vopsire sau metalizare, gândim proiecte personalizate, care integrează cele mai performante echipamente necesare implementării lor.</p>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <p>De la planificare la montaj şi service, Minex e partnerul tău de încredere. Cu o reputaţie excelentă, câştigată în peste 15 ani de activitate pe piaţa românească şi peste 500 de proiecte realizate în ţară şi străinătate, am construit colaborări pe termen lung cu o diversitate de industrii (în mod special cu cea navală, a confecţiilor metalice şi a construcţiilor civile şi industriale).</p>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <p>Sistemele integrate dezvoltate de Minex România au în vedere toate funcţiile modelelor de business pe care le urmează clienţii noştri. De aceea excelenţa proprie derivă în depăşirea aşteptărilor cu privire la servicii şi produse. Investim în continuare în dezvoltarea personală şi în crearea de noi idei esenţiale, ca să putem propune permanent soluţii din ce în ce mai adaptabile unor nevoi din ce în ce mai variate şi mai particulare. Suntem întotdeauna deschişi la noi provocări.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section--secondary">
+      <div class="container-fluid container-fluid--fullwidth">
+        <div class="row row--no-gutter row--hero">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-same-height">
+            <div class="content">
+              <h1>Consultanta si proiectare </h1>
+              <blockquote>CELE MAI BUNE IDEI SE NASC DIN PASIUNE<br>Malcom Forbes/Forbes<span class="circleQuote">"</span></blockquote>
+              <p>De la industria navală la cea a confecţiilor metalice, de la domeniul construcţiilor civile şi industriale la sectorul auto şi al construcţiilor de maşini, toate pot beneficia de experienţa MINEX, de consultanţă şi asistenţă înalt calificate, pentru alegerea celor mai potrivite soluţii de tratare a suprafeţelor.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-same-height">
+            <div data-focus-x="0.5" data-focus-y="-0.3" data-image-w="1285" data-image-h="1090" class="focuspoint focuspoint--round-right"><img src="img/image02.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="container">
+            <div class="col-xs-12">
+              <div class="row row--content">
+                <div class="col-sm-12 col-md-4">
+                  <p>Privim procesele în perspectivă. Propunem exclusiv formule care au în vedere reducerea costurilor de producţie în contextul creşterii performanţei şi a gradului de flexibilitate necesar adaptării la situaţiile curente de piaţă.<br>
+                    <hr>
+                  </p>
+                  <p>
+                     
+                    Minex este mai mult decât un furnizor de echipamente. Indiferent dacă este vorba despre sablare, vopsire sau metalizare, gândim proiecte personalizate, care integrează cele mai performante echipamente necesare implementării lor.
+                  </p>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                  <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                      <p>De la planificare la montaj şi service, Minex e partnerul tău de încredere.<br>Cu o reputaţie excelentă, câştigată în peste 15 ani de activitate pe piaţa românească şi peste 500 de proiecte realizate în ţară şi străinătate, am construit colaborări pe termen lung cu o diversitate de industrii (în mod special cu cea navală, a confecţiilor metalice şi a construcţiilor civile şi industriale).</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <p>Sistemele integrate dezvoltate de Minex România au în vedere toate funcţiile modelelor de business pe care le urmează clienţii noştri. De aceea excelenţa proprie derivă în depăşirea aşteptărilor cu privire la servicii şi produse. Investim în continuare în dezvoltarea personală şi în crearea de noi idei esenţiale, ca să putem propune permanent soluţii din ce în ce mai adaptabile unor nevoi din ce în ce mai variate şi mai particulare. Suntem întotdeauna deschişi la noi provocări.</p>
+                    </div>
+                    <div class="col-xs-12 text-center"><img src="img/image01_small.jpg" alt="" class="img-responsive"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section--primary">
+      <div class="container-fluid container-fluid--fullwidth">
+        <div class="row row--no-gutter row--hero">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-same-height">
+            <div data-focus-x="0.5" data-focus-y="-0.3" data-image-w="1285" data-image-h="1090" class="focuspoint focuspoint--round-left"><img src="img/image03.jpg" alt=""></div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-same-height">
+            <div class="content">
+              <h1>Montaj si service</h1>
+              <blockquote>INOVATIA ESTE UN SPORT DE ECHIPA.<br>TONY WAGNER / HARVARD UNIVERSITY INNOVATION LAB<span class="circleQuote">"</span></blockquote>
+              <p>Echipa noastră de specialişti înalt calificaţi răspunde oricând nevoilor şi cerinţelor tale, adaptându-se permanent la noile tendinţe şi tehnologii aplicate în domeniu. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="row row--content">
+                  <div class="col-sm-12">
+                    <h2 class="text-center">Promisiunea MINEX</h2>
+                    <hr>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <p class="lead--small">Dincolo de serviciile de proiectare şi consultanţă, MINEX International este lângă tine pe tot parcursul implementării lucrărilor, de la început şi până la predarea la cheie. Unul din cele mai mare avantaje ale parteneriatului cu noi este calitatea service-ului post-vânzare. Personalul MINEX e pregătit să soluţioneze constant şi eficient solicitărilor primite de la clienţi. În plus, cu depozite bine aprovizionate în cele mai importante locaţii din ţară suntem în măsură să răspundem prompt cererilor de consumabile şi piese de schimb.</p>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-md-push-1">
+                    <ul>
+                      <li>Cele mai performante tehnologii în domeniul tratării suprafeţelor, conforme     cu normele de siguranţă şi calitate aplicate la nivel european</li>
+                      <li>Promovarea exclusivă a celor mai bune şi mai variate materiale, respectiv consumabile, pentru desfăşurarea proceselor de producţie, cu rezultate finale excelente</li>
+                      <li>Consiliere şi suport tehnic atât în perioada de planificare şi realizare a lucrărilor, cât şi ulterior, pe parcursul întregii perioade de colaborare</li>
+                      <li>Livrare imediată a oricăror consumabile şi piese de schimb</li>
+                      <li>Susţinere permanentă prin intermediul personalului tehnic, care vă stă la dispoziţie pentru orice lucrări de mentenanţă şi reparaţii</li>
+                      <li>Flexibilitate şi adaptabilitate la nevoile fiecărui client în parte</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section--secondary">
+      <div class="container-fluid container-fluid--fullwidth">
+        <div class="row row--no-gutter row--hero">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-same-height">
+            <div class="content">
+              <h1 class="text-center">Referinte </h1>
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="row icons">
+                    <div class="col-xs-6 col-sm-3"><a href=""><img src="img/icon01.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-3"><a href=""><img src="img/icon02.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-3"><a href=""><img src="img/icon03.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-3"><a href=""><img src="img/icon04.jpg" alt="" class="img-responsive"></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-same-height">
+            <div data-focus-x="-0.2" data-focus-y="0.25" data-image-w="1285" data-image-h="1090" class="focuspoint focuspoint--round-right"><img src="img/image05.jpg" alt=""></div>
+          </div>
+        </div><br>
+      </div>
+      <div class="container">
+        <div class="row row--no-gutter">
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_01.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_02.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_03.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_04.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_04.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_03.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_02.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_01.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_01.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_02.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_03.jpg" alt="" class="img-responsive"></a></div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-3 gridProject"><a href="www.solopx.com" class="gridProject-link">
+                        <div class="copy">
+                          <h5>TITLE PROJECT (UK)</h5>
+                          <p>vezi proiectul daewoo</p>
+                        </div><img src="img/circle/testimonial_04.jpg" alt="" class="img-responsive"></a></div>
+          <div class="col-xs-12 gridProject"><br><br>
+            <p class="text-center"> <a href="" class="btn btn-primary">vezi si alte proiecte</a></p><br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="solutii_complete" class="section--primary">
+      <div class="container-fluid container-fluid--fullwidth">
+        <div class="row row--no-gutter row--hero">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-same-height">
+            <div data-focus-x="0.5" data-focus-y="-0.3" data-image-w="1285" data-image-h="1090" class="focuspoint focuspoint--round-left"><img src="img/image04.jpg" alt=""></div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-same-height">
+            <div class="content">
+              <h1>Solutii complete  pentru tratarea suprafetelor</h1>
+              <blockquote>Inovatia este un sport de echipa. Tony Wagner/Harvard university innovation lab<span class="circleQuote">"</span></blockquote>
+              <p>Cu o experien de peste 15 ani în domeniu, MINEX International genereaz i implementeaz cele mai competitive soluii personalizate de tratare a suprafeelor, pornind de la cerinele individuale ale fiecrui productor de confecii i construcii metalice, în parte.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="container">
+            <div class="col-xs-12">
+              <div class="row row--content">
+                <div class="col-xs-12 col-md-9">
+                  <p>Toate nevoile specifice unui proiect sunt luate în calcul atunci când specialitii MINEX ofer consultan în alegerea celui mai potrivit sistem integrat, care include, în mod suplimentar, i cea mai performant ofert de echipamente pentru hale de sablare, vopsire i metalizare. </p>
+                  <p>În funcie de dimenisiunile pieselor ce urmeaz a fi procesate, cabinele de sablare, vopsire i metalizare sunt gândite extrem de flexibil i sunt disponibile într-o gam larg tipo-dimensional. </p>
+                  <p>Minex International e partenerul de încredere, pe termen lung. Dincolo de serviciile de consultan i proiectare, echipa noastr are grij i de punerea integral în oper a proiectului, oferind asisten tehnic, service pentru echipamente i lucrri de mentenan atât în perioada de garanie, cât i ulterior.</p>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                  <ul class="bxslider">
+                    <li><img src="img/slider_small01.jpg"></li>
+                    <li><img src="img/slider_small02.jpg"></li>
+                    <li><img src="img/slider_small03.jpg"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container-fluid container-fluid--fullwidth contact">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-same-height">
+            <form>
+              <div class="content container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <h2>FORMULAR CONTACT</h2>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="form-group">
+                      <input type="text" placeholder="nume" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="form-group">
+                      <input type="text" placeholder="prenume" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="form-group">
+                      <input type="text" placeholder="email" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="form-group">
+                      <input type="text" placeholder="functie" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="domeniu de activitate" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="form-group">
+                      <textarea rows="3" class="form-control"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <button type="submit" class="btn btn-primary">Trimite</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-same-height">
+            <!-- introdu aici mapa-->
+            <h2>Introdu mapa</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 class="text-center">B-dul Metalurgiei 85, 041832 - Bucuresti 4, Tel.: +40 21 306 02 81, Fax: +40 21 306 02 84, web: www.minex.ro, e-mail: minex@minex.ro</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container-fluid container-fluid--fullwidth">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-4"><a href="#"><img src="img/logo.png"></a></div>
+            <div class="col-xs-8">
+              <p class="text-right">&copy; Copyright 1995 - 2012. Minex, Romania. Toate drepturile rezervate.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  
+  <script src="js/mmenu/jquery.mmenu.min.all.js" type="text/javascript"></script>
+  <script src="js/bxSlider/jquery.bxslider.min.js"></script>
+  <script src="js/bxSlider/jquery.bxslider_my.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/focusPoint/jquery.focuspoint.min.js"></script>
+  <script src="js/focusPoint/jquery.focuspoint_my.js"></script>
+  <script src="js/bw/bw.js"></script>
+  <script src="js/bw/bw_my.js"></script>
+  <script>
+    $(function() {
+    	window.prettyPrint && prettyPrint()
+    	$(document).on('click', '.yamm .dropdown-menu', function(e) {
+    		e.stopPropagation()
+    	})
+    })
+  </script>
+  <script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+</html>

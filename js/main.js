@@ -1,3 +1,8 @@
+//  yamm menu
+//$(document).on('click', '.yamm .dropdown-menu', function(e) {
+//    e.stopPropagation()
+//})
+
 //$(".my-sticky-element").stick_in_parent();
 
 //$('.my-sticky-element')

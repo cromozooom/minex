@@ -1,18 +1,23 @@
 extends layout.jade
 block config
-	- var jquery 		= true
-	- var bootstrap 	= true
-	- var focusPoint 	= true
-	- var analytics		= true
-	- var bw 			= true
-	//- 
-		- var jquerySticky	= true
-		- var smoothScroll	= true
+		- var bootstrap 	= true
+		- var jquery 		= true
+		- var focusPoint 	= true
+		- var bw 			= true
+		- var analytics		= true
+		- var yamm 			= true
+		- var autoHidingNav = true 
+	
+	//-
+		
 		- var bxSlider 		= true
+		- var mmenu 		= true
+		- var smoothScroll	= true
+		- var jquerySticky	= true
 
 block content
 	body.referinte
-		include template/nav
+		include template/bootstrap_nav
 		section
 			.container-fluid.container-fluid--fullwidth
 				.row.row--no-gutter.row--hero

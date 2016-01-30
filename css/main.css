@@ -8256,6 +8256,13 @@ h1, h2, h3, h4 {
   padding: .5em 0;
 }
 
+@media (min-width: 770px) {
+  .navbar-right .dropdown-menu {
+    right: auto;
+    left: auto;
+  }
+}
+
 .heroVideo {
   position: relative;
   width: 100%;
@@ -8434,6 +8441,17 @@ blockquote.home {
 blockquote.home span.circleQuote {
   background-color: white;
   color: #ff7200;
+}
+
+.section--secondary blockquote.home {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: inherit;
+  margin-top: 1em;
+}
+
+.section--secondary blockquote.home span.circleQuote {
+  background-color: #ff7200;
+  color: white;
 }
 
 .section--primary {
@@ -8990,6 +9008,11 @@ blockquote.home span.circleQuote {
 
 .icons {
   margin-top: 2em;
+}
+
+.icons p {
+  font-size: 0.8em;
+  margin-bottom: 2em;
 }
 
 .icons img {

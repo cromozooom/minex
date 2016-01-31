@@ -8251,6 +8251,11 @@ h1, h2, h3, h4 {
   border-radius: 0;
 }
 
+.yamm-content ul {
+  margin: 0;
+  padding: 0;
+}
+
 .yamm-content ul li {
   list-style: none;
 }
@@ -8258,6 +8263,15 @@ h1, h2, h3, h4 {
 .yamm-content ul li a {
   display: block;
   padding: .5em 0;
+  color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
 }
 
 @media (min-width: 770px) {

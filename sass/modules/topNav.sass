@@ -18,12 +18,25 @@
 
 .yamm-content
 	ul
+		margin: 0
+		padding: 0
 		li
 			list-style: none
 			a
 				display: block
 				padding: .5em 0
-@media (min-width: 770px)
+				color: white
+.navbar-default .navbar-nav .open .dropdown-menu > li > a
+    color: white
+
+.navbar-default .navbar-toggle .icon-bar
+	background-color: white
+
+@media (min-width: $screen-sm-min)
 	.navbar-right .dropdown-menu
 		right: auto
 		left: auto
+
+// @media (min-width: $screen-md-min)
+// @media (min-width: $screen-lg-min)
+// @media (min-width: 770px)

@@ -41,7 +41,7 @@ block content
 		section.details
 			.container
 				.row
-					.col-xs-12.col-sm-6
+					.col-xs-12.col-sm-7
 						.tab
 							//- Nav tabs
 							ul.nav.nav-tabs(role="tablist")
@@ -56,9 +56,76 @@ block content
 
 							//- Tab panes
 							.tab-content
-								#specificatii.tab-pane(role="tabpanel")
+								#specificatii.tab-pane.active(role="tabpanel")
 									h4 Specificatii
-								#avantaje.tab-pane.active(role="tabpanel")
+									table.table.table-striped
+										thead
+											tr
+												th
+													p Descriere	
+												th
+													p
+														| INDy/Formula
+														br
+														| 5:1
+												th
+													p
+														| INDy/Formula
+														br
+														| 11:1
+												th
+													p 
+														| INDy/Formula
+														br
+														| HVRP 17:1
+												th
+													p 
+														| INDy/Formula
+														br
+														| 20:1
+										tbody
+											tr
+												td: p
+													strong Necesarul de aer
+												td: p 425 lpm la 6.8 bar
+												td: p 991 lpm la 6.8 bar
+												td: p 2265 lpm la 6.8 bar
+												td: p 991 lpm la 6.8 bar
+											tr
+												td: p
+													strong Capacitatea pompei
+												td: p 9.5 lpm (2.5 gpm)
+												td: p 9.5 lpm (2.5 gpm)
+												td: p 15.5 lpm (4.1 gpm)
+												td: p 6.0 lpm (1.6 gpm)
+											tr
+												td: p
+													strong Debitul pompei
+												td: p 
+													| 190 cc/ciclu
+													| 5 cicluri= 1 litru
+												td: p 
+													| 190 cc/ciclu
+													| 5 cicluri= 1 litru
+												td: p 
+													| 310 cc/ciclu
+													| 3 cicluri= 1 litru
+												td: p 
+													| 120 cc/ciclu
+													| 8 cicluri= 1 litru
+									p
+										strong Pompa 5:1 
+										| – pentru aplicarii la presiune scazuta; furnizeaza pana la 34 bar (3.4 Mpa, 500 psi); furnizeaza pana la 9.5 lpm (2.5 gpm) - optional
+									p 
+										strong Pompa HVRP 17:1 
+										| – pentru aplicari ce utilizeaza un volum mare de rasina; furnizeaza  pana la 117 bar (11.7 Mpa, 1700 psi); furnizeaza pana la 15.5 lpm (4.1 gpm) - optional
+									p 
+										strong Pompa VOC 20:1 
+										| – pentru aplicarea de materiale cu vascozitate ridicata; furnizeaza pana la 138 bar (13.8 Mpa, 2000 psi); furnizeaza pana la 6.0 lpm (1.6 gpm) - optional
+
+
+								
+								#avantaje.tab-pane(role="tabpanel")
 									h4 Avantajele utilizarii acestor produse
 									ul
 										li: p Aspirator industrial usor, fabricat din poliester dur;
@@ -77,7 +144,7 @@ block content
 									h4 Accesorii
 								#referinte.tab-pane(role="tabpanel")
 									h4 Referinte
-					.col-xs-12.col-sm-6
+					.col-xs-12.col-sm-5
 						p.text-center Vrei sa vorbesti cu specialistii nostri?
 						#accordion.panel-group(role='tablist', aria-multiselectable='true')
 							.panel.panel-default

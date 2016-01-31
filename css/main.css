@@ -8869,6 +8869,10 @@ blockquote.home span.circleQuote {
   color: #333;
 }
 
+.prod table {
+  font-size: .8em;
+}
+
 .contact {
   background-image: url("../img/contact.jpg");
   background-size: cover;

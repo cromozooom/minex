@@ -8187,12 +8187,16 @@ h1, h2, h3, h4 {
 }
 
 .heroImageSmallHeader h1 {
-  text-shadow: 0px 0px 15px black;
+  text-shadow: 5px 0px 20px black;
   bottom: 20px;
   position: absolute;
   left: 40px;
   z-index: 9;
   font-weight: 800;
+}
+
+.heroImageSmallHeader h1 span {
+  color: white;
 }
 
 /*!
@@ -8426,6 +8430,10 @@ h1, h2, h3, h4 {
   color: inherit;
   text-transform: uppercase;
   font-weight: 800;
+}
+
+.section--secondary .row--hero h1 span {
+  color: white;
 }
 
 .section--secondary h2 {

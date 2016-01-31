@@ -8279,6 +8279,12 @@ h1, h2, h3, h4 {
     right: auto;
     left: auto;
   }
+  .yamm-content ul li a {
+    color: #ff7200;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ff7200;
+  }
 }
 
 .heroVideo {

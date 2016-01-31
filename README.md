@@ -11,7 +11,7 @@ developement
 
 Pagini realizate
 -------------
-1. [Home page](https://rawgit.com/cromozooom/minex/master/home.html) - (1homepage, 2homepagemeniu desfasurat, 3selectie meniu produs, 4solutii integrate, 5consultanta si proiectare, 6montaj si service, 7referinte, 8despre noi, 9contact)
+1. [Home page](https://rawgit.com/cromozooom/minex/master/home_01.html) - (1homepage, 2homepagemeniu desfasurat, 3selectie meniu produs, 4solutii integrate, 5consultanta si proiectare, 6montaj si service, 7referinte, 8despre noi, 9contact)
 2. [Listare produse](https://rawgit.com/cromozooom/minex/master/categ.html)
 3. [Produs](https://rawgit.com/cromozooom/minex/master/prod.html)
 4. [Noutati](https://rawgit.com/cromozooom/minex/master/noutati.html)

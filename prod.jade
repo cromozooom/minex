@@ -7,6 +7,8 @@ block config
 	- var analytics		= true
 	- var bw 			= true
 	- var bxSlider 		= true
+	- var yamm 			= true
+	- var autoHidingNav = true 
 	//- 
 		- var jquerySticky	= true
 		- var smoothScroll	= true
@@ -39,36 +41,149 @@ block content
 		section.details
 			.container
 				.row
-					.tab
-						//- Nav tabs
-						ul.nav.nav-tabs(role="tablist")
-							li(role="presentation")
-								a(href="#specificatii" aria-controls="specificatii" role="tab" data-toggle="tab") Specificatii
-							li.active(role="presentation")
-								a(href="#avantaje" aria-controls="avantaje" role="tab" data-toggle="tab") Avantaje
-							li(role="presentation")
-								a(href="#accesorii" aria-controls="accesorii" role="tab" data-toggle="tab") Accesorii
-							li(role="presentation")
-								a(href="#referinte" aria-controls="referinte" role="tab" data-toggle="tab") Referinte
+					.col-xs-12.col-sm-6
+						.tab
+							//- Nav tabs
+							ul.nav.nav-tabs(role="tablist")
+								li(role="presentation")
+									a(href="#specificatii" aria-controls="specificatii" role="tab" data-toggle="tab") Specificatii
+								li.active(role="presentation")
+									a(href="#avantaje" aria-controls="avantaje" role="tab" data-toggle="tab") Avantaje
+								li(role="presentation")
+									a(href="#accesorii" aria-controls="accesorii" role="tab" data-toggle="tab") Accesorii
+								li(role="presentation")
+									a(href="#referinte" aria-controls="referinte" role="tab" data-toggle="tab") Referinte
 
-						//- Tab panes
-						.tab-content
-							#specificatii.tab-pane(role="tabpanel")
-								h4 Specificatii
-							#avantaje.tab-pane.active(role="tabpanel")
-								h4 Avantajele utilizarii acestor produse
-								ul
-									li: p Aspirator industrial usor, fabricat din poliester dur;
-									li: p Usor de transportat, rezistent si usor de curatat;
-									li: p Echipat cu un filtru stea clasa M, suprafata de filtrare de 8600 cm2, ideal pentru filtrarea prafului fin;
-									li: p Optional: filtru / kit HEPA (filtrare particule periculoase sanatatii);
-									li: p Poate fi folosit atat in interior cat si in exterior;
-									li: p Mentine curatenia la locul de munca;
-									li: p Echipament pentru utilizare in conditii grele de lucru, proiectat sa functioneze continuu.
-							#accesorii.tab-pane(role="tabpanel")
-								h4 Accesorii
-							#referinte.tab-pane(role="tabpanel")
-								h4 Referinte
+							//- Tab panes
+							.tab-content
+								#specificatii.tab-pane(role="tabpanel")
+									h4 Specificatii
+								#avantaje.tab-pane.active(role="tabpanel")
+									h4 Avantajele utilizarii acestor produse
+									ul
+										li: p Aspirator industrial usor, fabricat din poliester dur;
+										li: p Usor de transportat, rezistent si usor de curatat;
+										li: p Echipat cu un filtru stea clasa M, suprafata de filtrare de 8600 cm2, ideal pentru filtrarea prafului fin;
+										li: p Optional: filtru / kit HEPA (filtrare particule periculoase sanatatii);
+										li: p Poate fi folosit atat in interior cat si in exterior;
+										li: p Mentine curatenia la locul de munca;
+										li: p Echipament pentru utilizare in conditii grele de lucru, proiectat sa functioneze continuu.
+										li: p Echipat cu un filtru stea clasa M, suprafata de filtrare de 8600 cm2, ideal pentru filtrarea prafului fin;
+										li: p Usor de transportat, rezistent si usor de curatat;
+										li: p Aspirator industrial usor, fabricat din poliester dur;
+										
+										
+								#accesorii.tab-pane(role="tabpanel")
+									h4 Accesorii
+								#referinte.tab-pane(role="tabpanel")
+									h4 Referinte
+					.col-xs-12.col-sm-6
+						p.text-center Vrei sa vorbesti cu specialistii nostri?
+						#accordion.panel-group(role='tablist', aria-multiselectable='true')
+							.panel.panel-default
+								#headingOne.panel-heading(role='tab')
+									h4.panel-title
+										a(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+											| Contacteaza-ne telefonic
+								#collapseOne.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne')
+									.panel-body
+										p daca vrei ne poti contacta la numarul:
+										h3 348.555.07.61
+										p oficiile noastre sunt deschise de lunhi pina vineri: 9.00 - 18.00
+							.panel.panel-default
+								#headingTwo.panel-heading(role='tab')
+									h4.panel-title
+										a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+											| Contact form
+								#collapseTwo.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingTwo')
+									.panel-body
+										form
+											.row
+												.col-xs-12.col-sm-6
+													.form-group
+														label(for="fullName") Nume complet
+														input.form-control(type="text" id="fullName" placeholder="Nume complet")
+												.col-xs-12.col-sm-6
+													.form-group
+														label(for="companie") Companie
+														input.form-control(type="text" id="companie" placeholder="Companie")
+												.col-xs-12.col-sm-6
+													.form-group
+														label(for="Telefon") Telefon
+														input.form-control(type="text" id="telefon" placeholder="Telefon")
+												.col-xs-12.col-sm-6
+													.form-group
+														label(for="exampleInputEmail1") Email address
+														input.form-control(type="email" id="exampleInputEmail1" placeholder="Email")
+												.col-xs-12.col-sm-6
+													.form-group
+														.radio
+															label
+																input(type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked)
+																| Romania
+												.col-xs-12.col-sm-6
+													.form-group
+														.radio
+															label
+																input(type="radio" name="optionsRadios" id="optionsRadios1" value="option1")
+																| Strainatate
+												.col-xs-12.col-sm-6
+													.form-group
+														label(for="judet") Judet
+														select.form-control(name="" id="judet" onchange="regionCB.PerformCallback();")
+															option(value="1") Alba
+															option(value="2") Arad
+															option(value="3") Arges
+															option(value="4") Bacau
+															option(value="5") Bihor
+															option(value="6") Bistrita-Nasaud
+															option(value="7") Botosani
+															option(value="8") Braila
+															option(value="9") Brasov
+															option(value="10") Bucuresti
+															option(value="11") Buzau
+															option(value="12") Calarasi
+															option(value="13") Caras-Severin
+															option(value="14") Cluj
+															option(value="15") Constanta
+															option(value="16") Covasna
+															option(value="17") Dambovita
+															option(value="18") Dolj
+															option(value="19") Galati
+															option(value="20") Giurgiu
+															option(value="21") Gorj
+															option(value="22") Harghita
+															option(value="23") Hunedoara
+															option(value="24") Ialomita
+															option(value="25") Iasi
+															option(value="26") Ilfov
+															option(value="27") Maramures
+															option(value="28") Mehedinti
+															option(value="29") Mures
+															option(value="30") Neamt
+															option(value="31") Olt
+															option(value="32") Prahova
+															option(value="33") Salaj
+															option(value="34") Satu Mare
+															option(value="35") Sibiu
+															option(value="36") Suceava
+															option(value="37") Teleorman
+															option(value="38") Timis
+															option(value="39") Tulcea
+															option(value="40") Valcea
+															option(value="41") Vaslui
+															option(value="42") Vrancea
+												.col-xs-12.col-sm-6
+													.form-group
+														label(for="localitate") Localitate
+														input.form-control(type="text" id="localitate" placeholder="localitate")
+												.col-xs-12.col-sm-12
+													.form-group
+														textarea.form-control(rows="3" placeholder="Detalii")
+													button.btn.btn-primary(type="submit") Trimite formularul
+
+
+
 		sections.similar
 			.container
 				.row

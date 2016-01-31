@@ -8452,10 +8452,6 @@ h1, h2, h3, h4 {
   font-weight: 800;
 }
 
-.section--secondary .row--hero h1 span {
-  color: white;
-}
-
 .section--secondary h2 {
   color: inherit;
 }

@@ -1,6 +1,8 @@
 // bxSlider
 $(document).ready(function(){
-	$('.bxslider').bxSlider();
+	$('.bxslider').bxSlider({
+		mode: 'fade'
+	});
 	$('.bxsliderProd').bxSlider({
 		captions: true
 	});

@@ -194,3 +194,18 @@
 				li: a(href="noutati.html") Noutati
 				li: a(href="testimoniale.html") Testimoniale
 				li: a(href="#contact") Contact
+				//- lang
+				li.dropdown.lang
+					a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+						img#imgNavSel.icon-small(src='', alt='...')
+						//- span#lanNavSel ITA
+						span.caret
+					ul.dropdown-menu(role='menu')
+						li
+							a#navRom.language(href='#')
+								img#imgNavRom.icon-small(src='', alt='...')
+								//- span#lanNavIta Italiano
+						li
+							a#navEng.language(href='#')
+								img#imgNavEng.icon-small(src='', alt='...')
+								//- span#lanNavEng English

@@ -6816,6 +6816,27 @@ blockquote.home {
     -webkit-filter: grayscale(0%);
             filter: grayscale(0%); }
 
+.verticalAligh {
+  margin-top: 1em; }
+
+.v-icon {
+  margin-bottom: 2em; }
+
+@media (min-width: 770px) {
+  .verticalAligh {
+    margin-top: 2em;
+    font-size: 1em; } }
+
+@media (min-width: 992px) {
+  .verticalAligh {
+    margin-top: 1em;
+    font-size: .8em; } }
+
+@media (min-width: 1200px) {
+  .verticalAligh {
+    margin-top: .2em;
+    font-size: 1em; } }
+
 .gridProject.sidebar {
   height: 300px; }
   .gridProject.sidebar .copy {

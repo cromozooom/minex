@@ -2,8 +2,16 @@ section#footer
 	.container-fluid.container-fluid--fullwidth
 		.container
 			.row
-				.col-xs-4
+				.col-xs-8.col-sm-8.col-md-2.col-lg-2
 					a(href="#")
 						img(src="img/logo.png")
-				.col-xs-8
-					p.text-right &copy; Copyright 1995 - 2012. Minex, Romania. Toate drepturile rezervate.
+					.visible-xs-block
+						p.text-left
+							block copyRight
+								| &copy; Copyright 1995 - 2012. Minex, Romania. Toate drepturile rezervate.
+						
+				.hidden-xs.hidden-sm.col-sm-8.col-md-9.col-lg-10.rightpd
+					p.text-right.foterPosition
+						block copyRight
+	a#back-to-top.btn.btn-primary.btn-lg.back-to-top(href="#" role="button" title="" data-toggle="tooltip" data-placement="top" data-original-title="" style="display: inline;")
+		span.glyphicon.glyphicon-chevron-up

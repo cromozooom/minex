@@ -6287,6 +6287,14 @@ li.lang a img {
   padding: 0;
   border: 0; }
 
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  display: none;
+  border: 2px solid #fff; }
+
 .heroVideo {
   position: relative;
   width: 100%;
@@ -6934,17 +6942,18 @@ blockquote.home {
 
 #footer {
   background: rgba(0, 0, 0, 0.2); }
-  #footer .col-xs-8 {
+  #footer .rightpd {
     position: relative;
     height: 80px; }
-  #footer .text-right {
+  #footer .foterPosition {
     position: absolute;
     top: 50%;
     -webkit-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
             transform: translate(0, -50%);
     padding-right: 1em;
-    right: 0; }
+    right: 0;
+    width: 100%; }
 
 #map {
   width: 100%;
